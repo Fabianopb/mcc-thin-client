@@ -1,0 +1,7 @@
+# Temerarious Thirteens - Project 1 for CSE-4100
+
+* 'ThinClientG13' includes the mobile user interface
+
+* 'Server' includes the socket and cloud connections for the application
+
+* 'Documentation' includes any other relevant file for the understanding of the application
