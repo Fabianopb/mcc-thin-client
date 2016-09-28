@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Thin Client G13</string>
+    <string name="open_office_button">Open Office</string>
+    <string name="inkscape_button">Inkscape</string>
+    <string name="choose_your_app">Please choose the virtual application that you want to start.</string>
 </resources>
