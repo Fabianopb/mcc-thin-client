@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="Welcome <name of the user>"
+        android:text="Welcome"
         android:textSize="20sp" />
     <TextView
         android:layout_width="wrap_content"
