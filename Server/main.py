@@ -8,13 +8,15 @@ app.config['DEBUG'] = True
 def hello():
     return 'Hello World!'
 
+
 @app.route('/form/')
 def form():
-    return request.query_string
-
-@app.route('/form2/')
-def form():
-    return request.url
+    user = request.form.get('user')
+    password = request.form.get('password')
+    if user == 'test' and password == 'secret':
+        return 'Authenticated'
+    else:
+        return 'Wrong credentials'
 
 @app.errorhandler(404)
 def page_not_found(e):
