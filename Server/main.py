@@ -9,7 +9,7 @@ def hello():
     return 'Hello World!'
 
 
-@app.route('/form/')
+@app.route('/form/', methods=['POST'])
 def form():
     user = request.form.get('user')
     password = request.form.get('password')
