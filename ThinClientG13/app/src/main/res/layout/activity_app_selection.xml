@@ -25,7 +25,8 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="@string/open_office_button" />
+        android:text="@string/open_office_button"
+        android:onClick="startApplication"/>
     <Button
         android:layout_width="200dp"
         android:layout_height="100dp"
