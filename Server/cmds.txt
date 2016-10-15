@@ -18,6 +18,15 @@ cd ~/myapp
 gunicorn main:app --bind 0.0.0.0:80
 ################
 authbind gunicorn main:app --bind 0.0.0.0:80
+##########################Create certificate
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days XXX
+##########################Bind created certificate with an IP
+openssl x509 -x509toreq -in cert.pem -out req.pem -signkey nopass_key.pem 
+
+vim /etc/ssl/openssl.cnf 
+##Edit the section [v3_ca]: subjectAltName = IP:104.199.9.28
+
+openssl x509 -req -in req.pem -out new_cert.pem -extfile /etc/ssl/openssl.cnf -extensions v3_ca -signkey nopass_key.pem 
 ################
 cd ~/mcc-2016-g13-p1/Server
 authbind gunicorn -w3 --certfile=cer/cert.pem --keyfile=cer/nopass_key.pem main:app --bind 0.0.0.0:443
