@@ -16,8 +16,26 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="be1e5c7471cabd91b1a2d4295fdaa5c037ed0622">
+        sha1="3c405e09ac00ba53e806eb07e4bf6bd9380aee8a">
         <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e0ec200b7c9068096d3e8f9a8696b88ae654d37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/libs/GoogleAdMobAdsSdk-6.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="17a2415dbd2bbf5e1b9e8aa27d03f666c71396ad">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/GoogleAdMobAdsSdk-6.3.1_4895f194ff109e926d81fe0e8f56074f000f1465/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f62301b6ca708ea5b053aa25811744dd867f72b2">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ba820ef897f00cf62aedfe8362ccdeca1aa2833/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -54,24 +72,6 @@
         revision="24.0.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
         <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_7c142e2104fdee941ce355739699c87b3f8781ff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/libs/GoogleAdMobAdsSdk-6.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="17a2415dbd2bbf5e1b9e8aa27d03f666c71396ad">
-        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/GoogleAdMobAdsSdk-6.3.1_4895f194ff109e926d81fe0e8f56074f000f1465/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2cc65a315e150b062afe8add917de35800748448">
-        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ba820ef897f00cf62aedfe8362ccdeca1aa2833/classes.dex" />
     </item>
 
 </items>

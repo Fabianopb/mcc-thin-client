@@ -59,17 +59,17 @@
         </activity>
         <activity
             android:name=".EditBookmarkActivity"
-            android:label="@string/editbookmark_title"></activity>
+            android:label="@string/editbookmark_title" />
         <activity
             android:name=".AboutActivity"
-            android:label="@string/about"></activity>
+            android:label="@string/about" />
         <activity
             android:name=".HelpActivity"
-            android:label="@string/help"></activity>
+            android:label="@string/help" />
 
         <service
             android:name=".MDNSService"
-            android:enabled="true"></service>
+            android:enabled="true" />
 
         <activity
             android:name="com.google.ads.AdActivity"
@@ -83,6 +83,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.mccG13.AppSelectionActivity"></activity>
     </application>
 
 </manifest>

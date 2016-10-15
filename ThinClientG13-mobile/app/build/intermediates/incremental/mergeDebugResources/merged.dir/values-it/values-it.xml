@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string name="address_caption">Indirizzo</string>
+    <string name="alt_check">Alt</string>
+    <string name="app_name">MultiVNC</string>
+    <string name="arrow_down">Freccia giù</string>
+    <string name="arrow_left">Freccia sinistra</string>
+    <string name="arrow_right">Freccia destra</string>
+    <string name="arrow_up">Freccia su</string>
+    <string name="button_send_text">Invia testo</string>
+    <string name="center_mouse">Mouse @</string>
+    <string name="color_format_caption">Modalità Colore</string>
+    <string name="color_mode">Modalità Colore</string>
+    <string name="connect_button">Connetti</string>
+    <string name="connection_caption">Connessione</string>
+    <string name="control_check">Ctrl</string>
+    <string name="copy_list_button">Elenco copia</string>
+    <string name="ctrl_alt_del">Ctrl-Alt-Canc</string>
+    <string name="delete_connection">Elimina connessione</string>
+    <string name="delete_key">Elimina tasto selezionato</string>
+    <string name="delete_key_list">Elimina elenco tasti</string>
+    <string name="disconnect">Disconnetti</string>
+    <string name="enter_text">Invia testo</string>
+    <string name="enter_text_title">Inserisci testo da inviare</string>
+    <string name="fit_to_screen">Adatta allo schermo</string>
+    <string name="force_full_check">Forza immagine a schermo intero</string>
+    <string name="info">Info</string>
+    <string name="input_mode">Modalità inserimento</string>
+    <string name="input_mode_mouse">Modalità controllo puntatore Mouse</string>
+    <string name="input_mode_panning">Modalità panoramica Desktop</string>
+    <string name="input_mode_touch_pan_zoom_mouse">Panoramica tocca cursore ed Ingrandisci</string>
+    <string name="input_mode_touchpad">Touchpad</string>
+    <string name="keep_password_button">Mantieni</string>
+    <string name="keys_caption">Tasti</string>
+    <string name="list_caption">Elenco</string>
+    <string name="list_name_caption">Nome elenco</string>
+    <string name="local_mouse_check">Puntatore mouse locale</string>
+    <string name="meta_key_title">Invia tasti speciali</string>
+    <string name="mouse_follow_pan">Il cursore segue la Panoramica</string>
+    <string name="new_list_button">Nuovo elenco</string>
+    <string name="nickname_caption">Alias</string>
+    <string name="one_to_one">1:1</string>
+    <string name="open_doc">Manuale/Wiki</string>
+    <string name="pan_follow_mouse">Il cursore segue il Mouse</string>
+    <string name="password_caption">Password</string>
+    <string name="port_caption">Porta</string>
+    <string name="save_as_copy">Salva copia</string>
+    <string name="scaling">Ridimensiona</string>
+    <string name="scaling_zoomable">Ridimensionabile</string>
+    <string name="send_button">Invia</string>
+    <string name="send_key_again">Ripeti invio tasto</string>
+    <string name="shift_check">Shift</string>
+    <string name="special_keys">Invia tasti</string>
+</resources>
