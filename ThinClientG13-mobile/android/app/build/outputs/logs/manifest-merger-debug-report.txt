@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:4:5-48
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:5:30-57
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:4:49-79
+uses-sdk
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:7:5-82
+	android:targetSdkVersion
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:7:41-70
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:7:15-40
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:8:2-48
+	android:anyDensity
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:8:20-45
+uses-permission#android.permission.INTERNET
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:10:2-80
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:10:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:12:2-94
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:12:19-75
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:13:2-99
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:13:19-80
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:14:2-89
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:14:19-70
+application
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:17:5-69:16
+	android:label
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:17:48-72
+	android:hardwareAccelerated
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:17:73-107
+	android:icon
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:17:18-47
+activity#com.coboltforge.dontmind.multivnc.MainMenuActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:19:3-26:14
+	android:label
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:20:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:22:4-25:20
+action#android.intent.action.MAIN
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:23:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:24:15-62
+activity#com.coboltforge.dontmind.multivnc.VncCanvasActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:27:3-36:14
+	android:screenOrientation
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:27:13-50
+	android:configChanges
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:27:51-101
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:27:102-134
+intent-filter#android.intent.action.VIEW
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:28:4-30:20
+action#android.intent.action.VIEW
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:29:5-64
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:29:13-54
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:31:13-35:29
+category#android.intent.category.DEFAULT
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:33:27-73
+data
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:34:17-46
+	android:scheme
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:34:23-43
+activity#com.coboltforge.dontmind.multivnc.ConnectionListActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:37:8-44:20
+	android:label
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:38:18-56
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:37:18-56
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:40:10-43:26
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:41:11-74
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:41:19-71
+activity#com.coboltforge.dontmind.multivnc.EditBookmarkActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:46:9-49:20
+	android:label
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:47:13-55
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:46:19-54
+activity#com.coboltforge.dontmind.multivnc.AboutActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:51:9-54:14
+	android:label
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:52:14-43
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:51:19-47
+activity#com.coboltforge.dontmind.multivnc.HelpActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:56:10-59:14
+	android:label
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:57:14-42
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:56:20-47
+service#com.coboltforge.dontmind.multivnc.MDNSService
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:61:9-64:19
+	android:enabled
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:62:13-35
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:63:13-40
+activity#com.google.ads.AdActivity
+ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:66:9-67:126
+	android:configChanges
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:67:15-124
+	android:name
+		ADDED from /Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/AndroidManifest.xml:66:19-59

@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/repeater_dialog.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/repeater_dialog.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/bookmarks_list_item.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/bookmarks_list_item.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/connection_list.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/connection_list.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/about.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/canvas.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/canvas.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/help.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/help.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/importexport.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/importexport.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/bookmarks_element.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/bookmarks_element.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/discovered_servers_element.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/discovered_servers_element.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/zoom_controls.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/zoom_controls.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/editbookmarks.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/editbookmarks.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/discovered_servers_list_item.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/discovered_servers_list_item.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/new_conn_element.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/new_conn_element.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/layout/metakey.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/layout/metakey.xml"
+    }
+]

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparentred">#aaff0000</color>
+    <string name="about">About</string>
+    <string name="address_caption">Address</string>
+    <string name="alt_check">Alt</string>
+    <string name="app_name">MultiVNC</string>
+    <string name="bookmark_delete_question">Are you sure you want to delete this bookmark?</string>
+    <string name="bookmark_invalid">This is not a valid bookmark anymore!</string>
+    <string name="bookmark_save_question">Do you want to bookmark this server?</string>
+    <string name="bookmark_saved">Bookmark saved!</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="changelog_dialog_text">
+
+&lt;b>Version 1.6.x:&lt;/b>
+	&lt;ul>
+          &lt;li>1.6.4&lt;/li>
+     	             &lt;ul>
+     	                &lt;li>Fix immediate crash upon connecting on some devices.&lt;/li>
+     	      	  &lt;/ul>
+           &lt;li>1.6.3&lt;/li>
+     	             &lt;ul>
+     	                &lt;li>Fix hidden menu items on some devices.&lt;/li>
+                        &lt;li>Fix Zeroconf/Bonjour/mDNS VNC server discovery on Android 4.2 devices.&lt;/li>
+
+     	      	  &lt;/ul>
+             &lt;li>1.6.2&lt;/li>
+     	             &lt;ul>
+     	                &lt;li>Hide Actionbar when there is a hardware menu button.&lt;/li>
+                        &lt;li>Removed broken hungarian translation.&lt;/li>
+
+     	      	  &lt;/ul>
+              &lt;li>1.6.1&lt;/li>
+     	             &lt;ul>
+     	                &lt;li>Fixed ANR that could sometimes occur when connection broke.&lt;/li>
+                        &lt;li>Fixed crash in discovered servers list.&lt;/li>
+
+     	      	  &lt;/ul>
+     		 &lt;li>1.6.0&lt;/li>
+     	             &lt;ul>
+     	                &lt;li>Added support for hardware keyboards and mice. Kudos to Kevin Pansky.&lt;/li>
+     	                &lt;li>Added copy&amp;paste function to and from Android clipboard.&lt;/li>
+     	                &lt;li>Virtual mouse button click-and-drag now also works on Honeycomb and newer devices.&lt;/li>
+			     		&lt;li>A bit more screen real estate on ICS and newer devices by hiding the status bar.&lt;/li>
+
+     	      	  &lt;/ul>
+     &lt;/ul>
+&lt;b>Version 1.5.x:&lt;/b>
+	&lt;ul>
+	        &lt;li>1.5.2: Hopefully fix crash on dialog dismissal.&lt;/li>
+		    &lt;li>1.5.1: Prevent ActionBar from stealing keyboard focus.&lt;/li>
+     		 &lt;li>1.5.0&lt;/li>
+     	             &lt;ul>
+			     		 &lt;li>Full IPv6 support on Honeycomb and newer!&lt;/li>
+					     &lt;li>Added help screen.&lt;/li>
+			             &lt;li>Improved touchpad mode.&lt;/li>
+			     		 &lt;li>Fixed \'Key Combo\' button being focused when soft keyboard was activated.&lt;/li>
+			     	     &lt;li>Fixed virtual mouse button toggling.&lt;/li>
+			     	     &lt;li>Fixed bookmarked connections.&lt;/li>
+			     	     &lt;li>Fixed ActionBar taking focus on soft keyboard toggle.&lt;/li>
+                         &lt;li>Fixed a lot of maybe-crash situations.&lt;/li>
+			     	     &lt;li>Removed broken flattr button.&lt;/li>
+     	      	  &lt;/ul>
+     &lt;/ul>
+
+&lt;b>Version 1.4.x:&lt;/b>
+     		&lt;ul>
+     		 &lt;li>1.4.10: Added button to be able to rate the app.&lt;/li>
+     		 &lt;li>1.4.9: Fix crash introduced by the 1.4.8 fix.&lt;/li>
+     	     &lt;li>1.4.8: Fix an ANR error when pausing the app.&lt;/li>
+     		 &lt;li>1.4.7: Fix hang after password entry. Should also work with bookmarks now.&lt;/li>
+     		 &lt;li>1.4.6: Add menu item to toggle pointer highlighting.&lt;/li>
+     	     &lt;li>1.4.5: Fix the 1.4.4 fix.&lt;/li>
+     	      &lt;li>1.4.4: Fix crash on startup on Honeycomb or newer devices.&lt;/li>
+     	       &lt;li>1.4.3: Hopefully fixed keyboard disappearing bug.&lt;/li>
+     	            &lt;li>1.4.2: Fixed crash on mouse button press.&lt;/li>
+     	             &lt;li>1.4.1: Fixed app not starting on Honeycomb devices.&lt;/li>
+     	             &lt;li>1.4.0&lt;/li>
+     	             &lt;ul>
+			     		 &lt;li>ICS and Tablet Support!&lt;/li>
+			     		 &lt;li>Added password prompt. Shown when no password was given but one is required.&lt;/li>
+			     		 &lt;li>Greatly improved key handling. Most special symbols work now.&lt;/li>
+			     		 &lt;li>Fixed a nasty app restart bug on Honeycomb and newer devices.&lt;/li>
+			     	     &lt;li>Fixed some possible crashes.&lt;/li>
+     	      	  &lt;/ul>
+     		&lt;/ul>
+    
+
+</string>
+    <string name="changelog_dialog_title">What\'s new…</string>
+    <string name="color_mode">Set Color Mode</string>
+    <string name="colormode_caption">Color Mode</string>
+    <string name="commercial_dialog_neveragain">Never ask again!</string>
+    <string name="commercial_dialog_no">No, not now.</string>
+    <string name="commercial_dialog_text">
+
+&lt;div align="center">
+    The team that brought you MultiVNC has new ad-hoc WiFi file sharing app out called &lt;b>shoutr&lt;/b>!&lt;br/>&lt;br/>
+    shoutr is an easy to use application that enables its users to wirelessly transfer any kind of data between Android powered devices.
+     What makes shoutr stand out is that it doesn\'t need an Internet connection nor a Wi-Fi hotspot.&lt;br/>&lt;br/>
+     Thus it works everywhere - in the subway, abroad, even on the moon! Since shoutr uses ad-hoc Wi-Fi, it is an order of magnitude faster
+     than Bluetooth and even 4G Internet. And of course, shoutr is secure: all data sent with shoutr is protected by industry-standard encryption.
+
+&lt;/div>
+ 
+      </string>
+    <string name="commercial_dialog_title">New file sharing app available!</string>
+    <string name="commercial_dialog_yes">Yes, let me try it out!</string>
+    <string name="connect_button">Connect</string>
+    <string name="control_check">Ctrl</string>
+    <string name="database_error_open">Error opening database!</string>
+    <string name="delete_connection">Delete</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnect_question">Are you sure you want to disconnect?</string>
+    <string name="discovered_servers">Discovered Servers</string>
+    <string name="edit">Edit</string>
+    <string name="editbookmark_title">Edit Bookmark</string>
+    <string name="enterbookmarkname">Please enter a bookmark name…</string>
+    <string name="export_settings">Export</string>
+    <string name="export_settings_path">Export to file</string>
+    <string name="firstrun_help_dialog_text">Seems it\'s the first time you use MultiVNC. Do you want to read the app manual? It\'s not very long yet informative...</string>
+    <string name="firstrun_help_dialog_title">Show Help?</string>
+    <string name="help">Help</string>
+    <string name="import_export_settings">Import/Export</string>
+    <string name="import_settings">Import</string>
+    <string name="import_settings_file_url">Import from file or URL</string>
+    <string name="info">Connection Info</string>
+    <string name="keep_password_button">Keep</string>
+    <string name="madeby">MultiVNC on Android is brought to you by CoboltForge (www.coboltforge.com).\n\nIt is based on android-vnc-viewer (http://code.google.com/p/android-vnc-viewer), with major cleanups and improvements done by CoboltForge.\n\nThe project home page is at https://github.com/bk138/multivnc.</string>
+    <string name="meta_key_title">Send Key Combo</string>
+    <string name="new_connection">New Connection</string>
+    <string name="nickname_caption">Bookmark</string>
+    <string name="password_caption">Password</string>
+    <string name="pleaserate">Show some love by clicking the heart ;-)</string>
+    <string name="port_caption">Port</string>
+    <string name="repeater_caption">Repeater</string>
+    <string name="repeater_clear">Don\'t use repeater</string>
+    <string name="repeater_hint">For UltraVNC-style repeater address</string>
+    <string name="restartMDNS">Restart Server Discovery</string>
+    <string name="save_as_copy">Save as Copy</string>
+    <string name="savebookmark_button">Save Bookmark</string>
+    <string name="scale_msg">Scale now</string>
+    <string name="send_button">Send</string>
+    <string name="send_key_again">Send Key Combo Again</string>
+    <string name="server_found">Found VNC Server</string>
+    <string name="server_removed">VNC Server disappeared</string>
+    <string name="shift_check">Shift</string>
+    <string name="shortcut_label">VNC Connection Shortcut</string>
+    <string name="special_keys">Key Combo</string>
+    <string name="support_dialog_neveragain">Never ask again!</string>
+    <string name="support_dialog_no">No, not now.</string>
+    <string name="support_dialog_text">If you like MultiVNC, why not consider supporting its development? For the time being, you can do so easily by rating the app, clicking on the sponsor ad or by using PayPal. Thanks!</string>
+    <string name="support_dialog_title">Please Support MultiVNC</string>
+    <string name="support_dialog_yes">Yes, good idea!</string>
+    <string name="toggle_framebuffer_update">Toggle View</string>
+    <string name="toggle_keyboard">Toggle Keyboard</string>
+    <string name="toggle_mouse_buttons">Toggle Mouse Buttons</string>
+    <string name="toggle_pointer_highlight">Toggle Pointer Highlighting</string>
+    <string name="username_caption">Username</string>
+    <string name="username_hint">For Windows authentication</string>
+</resources>

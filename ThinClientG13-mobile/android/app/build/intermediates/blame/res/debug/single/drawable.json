@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/keyboard.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/keyboard.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/love.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/love.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_selected.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_up_selected.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down_pressed.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_down_pressed.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down_disabled_focused.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_down_disabled_focused.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_up.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_normal.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_up_normal.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down_normal.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_down_normal.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down_selected.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_down_selected.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/mouse_icon.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/mouse_icon.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_down.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_pressed.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_up_pressed.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down_disabled.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_down_disabled.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/paypal_button.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/paypal_button.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/touchpad.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/touchpad.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_disabled_focused.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_up_disabled_focused.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_disabled.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/btn_zoom_up_disabled.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/specialkeys.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/specialkeys.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/res/merged/debug/drawable/refresh.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/drawable/refresh.png"
+    }
+]

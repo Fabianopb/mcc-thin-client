@@ -1,0 +1,406 @@
+[
+    {
+        "outputFile": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 41,
+                    "endOffset": 144
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 41,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 149,
+                    "endColumn": 45,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 45,
+                        "endOffset": 190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 54,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 191,
+                        "endColumn": 50,
+                        "endOffset": 241
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 52,
+                    "endOffset": 298
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 242,
+                        "endColumn": 48,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 303,
+                    "endColumn": 46,
+                    "endOffset": 345
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 291,
+                        "endColumn": 42,
+                        "endOffset": 333
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 350,
+                    "endColumn": 65,
+                    "endOffset": 411
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 334,
+                        "endColumn": 61,
+                        "endOffset": 395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 416,
+                    "endColumn": 50,
+                    "endOffset": 462
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 396,
+                        "endColumn": 46,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 467,
+                    "endColumn": 37,
+                    "endOffset": 500
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 443,
+                        "endColumn": 33,
+                        "endOffset": 476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 505,
+                    "endColumn": 66,
+                    "endOffset": 567
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 477,
+                        "endColumn": 62,
+                        "endOffset": 539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 572,
+                    "endColumn": 51,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 540,
+                        "endColumn": 47,
+                        "endOffset": 587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 624,
+                    "endColumn": 57,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 588,
+                        "endColumn": 53,
+                        "endOffset": 641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 45,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 642,
+                        "endColumn": 41,
+                        "endOffset": 683
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 163,
+                    "endOffset": 887
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 684,
+                        "endColumn": 174,
+                        "endOffset": 858
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 892,
+                    "endColumn": 72,
+                    "endOffset": 960
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 859,
+                        "endColumn": 68,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 965,
+                    "endColumn": 57,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 928,
+                        "endColumn": 53,
+                        "endOffset": 981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endColumn": 47,
+                    "endOffset": 1066
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1013,
+                        "endColumn": 43,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1071,
+                    "endColumn": 63,
+                    "endOffset": 1130
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1057,
+                        "endColumn": 59,
+                        "endOffset": 1116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1135,
+                    "endColumn": 45,
+                    "endOffset": 1176
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1117,
+                        "endColumn": 41,
+                        "endOffset": 1158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1181,
+                    "endColumn": 56,
+                    "endOffset": 1233
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 1159,
+                        "endColumn": 52,
+                        "endOffset": 1211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1238,
+                    "endColumn": 54,
+                    "endOffset": 1288
+                },
+                "from": {
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/android/app/src/main/res/values-fr/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 1212,
+                        "endColumn": 50,
+                        "endOffset": 1262
+                    }
+                }
+            }
+        ]
+    }
+]
