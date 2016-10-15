@@ -1,0 +1,22 @@
+################
+sudo touch /etc/authbind/byport/80
+sudo chown mborekcz /etc/authbind/byport/80
+sudo chmod 755 /etc/authbind/byport/80
+################
+sudo apt-get install virtualenv python-pip python3-dev
+mkdir venvs
+virtualenv venvs/myproject
+################
+source ~/venvs/myproject/bin/activate  (~/myapp/bin/activate)
+pip install -r requirements.txt
+pip install flask gunicorn
+################
+mkdir ~/myproject
+cd ~/myproject
+gunicorn main:app --bind 0.0.0.0:80
+################
+authbind gunicorn main:app --bind 0.0.0.0:80
+################
+gunicorn -w3 --certfile=server.crt --keyfile=server.key test:app
+################
+deactivate
