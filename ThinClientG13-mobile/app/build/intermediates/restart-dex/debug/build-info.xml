@@ -5,33 +5,40 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="1005708690142712"
+    timestamp="1006381665443903"
     token="-6853835974403590079"
-    verifier="MANIFEST_FILE_CHANGE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1294" />
+        duration="291" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="267" />
+        duration="34" />
     <task
         name="verifier"
-        duration="72" />
+        duration="2" />
 
     <artifact
-        location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="1005708690142712"
+        timestamp="1006269175930861"
         verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1006381665443903"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

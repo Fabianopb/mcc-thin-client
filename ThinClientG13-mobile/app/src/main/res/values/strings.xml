@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="main_activity">Thin Client G13</string>
+
+
     <string name="address_caption">Address</string>
     <string name="alt_check">Alt</string>
     <string name="app_name">MultiVNC</string>
