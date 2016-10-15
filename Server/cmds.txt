@@ -5,14 +5,16 @@ sudo chmod 755 /etc/authbind/byport/80
 ################
 sudo apt-get install virtualenv python-pip python3-dev
 mkdir venvs
-virtualenv venvs/myproject
+#virtualenv venvs/myproject
+virtualenv ~/myapp
+
 ################
-source ~/venvs/myproject/bin/activate  (~/myapp/bin/activate)
+source ~/myapp/bin/activate
 pip install -r requirements.txt
 pip install flask gunicorn
 ################
-mkdir ~/myproject
-cd ~/myproject
+mkdir ~/myapp
+cd ~/myapp
 gunicorn main:app --bind 0.0.0.0:80
 ################
 authbind gunicorn main:app --bind 0.0.0.0:80
