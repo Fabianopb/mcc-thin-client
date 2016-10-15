@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request
-from flask.ext.httpauth import HTTPBasicAuth
+from flask_httpauth import HTTPBasicAuth
 
 auth = HTTPBasicAuth()
 
@@ -9,10 +9,10 @@ app.config['DEBUG'] = True
 
 
 @auth.verify_password
-def verify_password():
+def verify_password(user, password):
     if user == 'test' and password == 'secret':
         return True
-    else
+    else:
         return False
 
 @app.route('/')
