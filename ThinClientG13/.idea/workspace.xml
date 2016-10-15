@@ -9,7 +9,50 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e55b19b-8759-4cff-83a8-9f9ee36d9d98" name="Default" comment="" />
+    <list default="true" id="5e55b19b-8759-4cff-83a8-9f9ee36d9d98" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/.idea/libraries/appcompat_v7_19_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/.idea/libraries/support_v4_19_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/java/com/mccG13/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/res/layout/activity_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/.idea/modules.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build.gradle" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/generated/source/r/debug/com/coboltforge/dontmind/multivnc/R.java" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/generated/source/r/debug/com/coboltforge/dontmind/multivnc/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-it.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-zh.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values-zh.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/layout-xlarge-land-v4.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/layout-xlarge-land-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/blame/res/debug/single/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values-fr/values-fr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values-it/values-it.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values-it/values-it.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values-ja/values-ja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinClientG13-mobile/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/../ThinClientG13-mobile/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ThinClientG13.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +85,7 @@
     <favorites_list name="ThinClientG13" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -1753,10 +1796,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2199,37 +2242,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temerarious/thinclient/thinclientg13/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2237,7 +2276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2245,64 +2283,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="35" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="35" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temerarious/thinclient/thinclientg13/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2310,89 +2341,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/android/bc/BCFactory.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/android/bc/BCFactory.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaList.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/IMostRecentBean.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MouseButtonView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaKeyBean.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/ConnectionSettable.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/util/SafeObjectPool.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaKeyBase.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/android/drawing/OverlappingCopy.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/LargeBitmapData.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temerarious/thinclient/thinclientg13/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temerarious/thinclient/thinclientg13/AppSelectionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaList.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/IMostRecentBean.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MouseButtonView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaKeyBean.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_selection.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/ConnectionSettable.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temerarious/thinclient/thinclientg13/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/util/SafeObjectPool.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/temerarious/thinclient/thinclientg13/AppSelectionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaKeyBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/android/drawing/OverlappingCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/LargeBitmapData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/android/bc/BCFactory.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaList.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/IMostRecentBean.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MouseButtonView.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaKeyBean.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/ConnectionSettable.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/util/SafeObjectPool.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/MetaKeyBase.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/antlersoft/android/drawing/OverlappingCopy.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/com/coboltforge/dontmind/multivnc/LargeBitmapData.java" />
   </component>
 </project>

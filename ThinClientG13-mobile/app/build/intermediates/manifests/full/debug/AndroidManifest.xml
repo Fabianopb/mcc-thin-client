@@ -6,8 +6,8 @@
     android:versionName="1.6.4" >
 
     <uses-sdk
-        android:minSdkVersion="5"
-        android:targetSdkVersion="13" />
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
 
     <supports-screens android:anyDensity="true" />
 
@@ -16,6 +16,9 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:hardwareAccelerated="true"
@@ -56,25 +59,22 @@
         </activity>
         <activity
             android:name="com.coboltforge.dontmind.multivnc.EditBookmarkActivity"
-            android:label="@string/editbookmark_title" >
-        </activity>
+            android:label="@string/editbookmark_title" />
         <activity
             android:name="com.coboltforge.dontmind.multivnc.AboutActivity"
-            android:label="@string/about" >
-        </activity>
+            android:label="@string/about" />
         <activity
             android:name="com.coboltforge.dontmind.multivnc.HelpActivity"
-            android:label="@string/help" >
-        </activity>
+            android:label="@string/help" />
 
         <service
             android:name="com.coboltforge.dontmind.multivnc.MDNSService"
-            android:enabled="true" >
-        </service>
+            android:enabled="true" />
 
         <activity
             android:name="com.google.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name="com.mccG13.MainActivity" />
     </application>
 
 </manifest>
