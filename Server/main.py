@@ -15,6 +15,11 @@ users = {
     "newuser": "securePassword"
 }
 
+applications = {
+    "1": "Inkscape",
+    "2": "OpenOffice"
+}
+
 SECRET_KEY='thisAppIsAwesome:)'
 
 @auth.verify_password
@@ -60,10 +65,49 @@ def get_token():
     token = generate_auth_token(g.user)
     return jsonify({ 'token': token.decode('ascii') })
 
-@app.route('/')
-def hello():
-    return 'Welcome to the backend!'
+@app.route('/getapps/')
+@auth.login_required
+def get_apps():
+    return jsonify(**applications)
 
+
+@app.route('/isrunning/', methods=['POST'])
+@auth.login_required
+def is_running():
+    isRunning = False #TODO: check machine
+    return isRunning
+
+@app.route('/open/', methods=['POST'])
+@auth.login_required
+def open():
+    app = request.form.get('app')
+    if app == '1':
+        pass
+        #TODO: open Inkscape VM
+    elif app == '2':
+        pass
+        #TODO: open OpenOffice VM
+    else:
+        return 'False'
+
+    return 'True' # Starting VM
+    #TODO: Should the client remember what app it was opening (either IP or some identificator to know what to ask in "isrunning"?
+
+
+@app.route('/close/', methods=['POST'])
+@auth.login_required
+def close():
+    vm_id = request.form.get('vm_id')
+    save = request.form.get('save') # Should it save state?
+    #TODO: Close VM
+    return 'True'
+
+
+# NOT USED VVVVV
+@app.route('/auth/')
+@auth.login_required
+def auth():
+    return "You are successfully authenticated!"
 
 @app.route('/form/', methods=['POST'])
 def form():
@@ -74,16 +118,9 @@ def form():
     else:
         return 'Wrong credentials'
 
-@app.route('/start/')
-@auth.login_required
-def start():
-    return "You are successfully authenticated, start!"
-
-
-@app.route('/auth/')
-@auth.login_required
-def auth():
-    return "You are successfully authenticated!"
+@app.route('/')
+def hello():
+    return 'Welcome to the backend!'
 
 
 @app.errorhandler(404)
