@@ -91,7 +91,7 @@ def is_running():
 # TODO: Remove this method when not needed anymore
 @app.route('/testopen/', methods=['GET'])
 def test_open():
-    node = gce.ex_get_node('tt-inksscape-1')
+    node = gce.ex_get_node('tt-inkscape-1')
     gce.ex_start_node(node)
 
 
