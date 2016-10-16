@@ -24,10 +24,9 @@ applications = {
 
 SECRET_KEY = 'thisAppIsAwesome:)'
 
-# Initialize libcloud Google Compute Engine Driver using internal authorization
-# This only works when running the app in GCE!
+# Initialize libcloud Google Compute Engine Driver using service account authorization
 ComputeEngine = get_driver(Provider.GCE)
-gce = ComputeEngine('', '', project='mcc-2016-g13-p1')
+gce = ComputeEngine('860271242030-compute@developer.gserviceaccount.com', 'key/mcc-2016-g13-p1-290f94a963cb.json', project='mcc-2016-g13-p1')
 
 
 @auth.verify_password
