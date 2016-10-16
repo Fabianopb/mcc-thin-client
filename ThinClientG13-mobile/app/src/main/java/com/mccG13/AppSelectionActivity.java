@@ -20,7 +20,7 @@ public class AppSelectionActivity extends Activity {
 
     public void startApplication(View view) {
 
-        String instanceIP = ""; // Put the instance IP here!!
+        String instanceIP = "104.155.100.210"; // Put the instance IP here!!
         String cloudPort = ":5901";
         String colorScheme = "/C24bit";
         String instancePwd = "/tReFre4r";

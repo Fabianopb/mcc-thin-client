@@ -356,7 +356,7 @@ class ScaleGestureDetector implements IBCScaleGestureDetector {
         if (mCurrLen == -1) {
             final float cvx = mCurrFingerDiffX;
             final float cvy = mCurrFingerDiffY;
-            mCurrLen = FloatMath.sqrt(cvx*cvx + cvy*cvy);
+           // mCurrLen = FloatMath.sqrt(cvx*cvx + cvy*cvy);
         }
         return mCurrLen;
     }
@@ -368,7 +368,7 @@ class ScaleGestureDetector implements IBCScaleGestureDetector {
         if (mPrevLen == -1) {
             final float pvx = mPrevFingerDiffX;
             final float pvy = mPrevFingerDiffY;
-            mPrevLen = FloatMath.sqrt(pvx*pvx + pvy*pvy);
+           // mPrevLen = FloatMath.sqrt(pvx*pvx + pvy*pvy);
         }
         return mPrevLen;
     }

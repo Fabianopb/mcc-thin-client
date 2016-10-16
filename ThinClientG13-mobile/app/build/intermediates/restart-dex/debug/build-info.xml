@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
-    density="420dpi"
-    format="8"
-    plugin-version="2.2.1"
-    timestamp="1007200030569962"
-    token="-6853835974403590079"
-    verifier="FULL_BUILD_REQUESTED" >
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="7"
+    timestamp="75899500260941"
+    token="9194472888318408574" >
 
     <task
         name="javac"
-        duration="828" />
+        duration="1178" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="623" />
+        duration="694" />
     <task
         name="verifier"
-        duration="175" />
+        duration="223" />
 
     <artifact
-        location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
+        location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build
-        timestamp="1007200030569962"
-        verifier="FULL_BUILD_REQUESTED" >
+    <build timestamp="75899500260941" >
         <artifact
-            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
+            location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
