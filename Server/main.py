@@ -93,7 +93,7 @@ def is_running():
 
 
 @app.route('/start/', methods=['POST'])
-#@auth.login_required
+@auth.login_required
 def start():
     app = request.form.get('app')
     if app == '1':
@@ -123,7 +123,7 @@ def start():
 
 
 @app.route('/stop/', methods=['POST'])
-#@auth.login_required
+@auth.login_required
 def stop():
     if running_node is None:
         return 'False'
