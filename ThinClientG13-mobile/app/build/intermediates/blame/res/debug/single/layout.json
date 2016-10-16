@@ -196,6 +196,10 @@
         "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycler_view.xml",
+        "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\layout\\activity_recycler_view.xml"
+    },
+    {
         "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },

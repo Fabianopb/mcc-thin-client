@@ -68,7 +68,7 @@
         jar="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="e04be4850aa5f8ff0d94f122848124fed1c5d100">
+        sha1="f1d1461944aac63b8a940ea3cd3dc1b4a8533eff">
         <dex dex="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c2b62919e54a5ef7f811cea49648285a41b6fb88\classes.dex" />
     </item>
     <item
@@ -138,7 +138,7 @@
         jar="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="ac33ba0cb14cedb9a89701fd9b0b72fddcf41a2d">
+        sha1="0f7e418c5035ccaf71e62eff8cb688b77f4edb1a">
         <dex dex="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_98421810278cd21e03722e9160c9be0890b66a4d\classes.dex" />
     </item>
     <item

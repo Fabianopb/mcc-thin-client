@@ -4,30 +4,35 @@
     api-level="23"
     density="xxxhdpi"
     format="7"
-    timestamp="75899500260941"
+    timestamp="81018685887868"
     token="9194472888318408574" >
 
     <task
         name="javac"
-        duration="1178" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="694" />
+        duration="0" />
     <task
         name="verifier"
-        duration="223" />
+        duration="0" />
 
     <artifact
-        location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="75899500260941" >
+    <build timestamp="80574931192201" >
         <artifact
             location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="81018685887868" >
+        <artifact
+            location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

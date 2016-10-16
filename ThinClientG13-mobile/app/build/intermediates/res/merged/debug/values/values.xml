@@ -314,7 +314,7 @@
 
 </string>
     <string name="changelog_dialog_title">What\'s new…</string>
-    <string name="choose_your_app">Please choose the virtual application that you want to start.</string>
+    <string name="choose_your_app">Please choose the virtual application that you want to start by clicking on its image</string>
     <string name="color_mode">Set Color Mode</string>
     <string name="colormode_caption">Color Mode</string>
     <string name="commercial_dialog_neveragain">Never ask again!</string>

@@ -48,6 +48,10 @@
         "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inkscape.png",
+        "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\drawable\\inkscape.png"
+    },
+    {
         "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_cab_background_top_material.xml"
     },
@@ -138,6 +142,10 @@
     {
         "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\refresh.png",
         "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\drawable\\refresh.png"
+    },
+    {
+        "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\og.png",
+        "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\drawable\\og.png"
     },
     {
         "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",

@@ -18,7 +18,7 @@ public class AppSelectionActivity extends Activity {
         setContentView(R.layout.activity_app_selection);
     }
 
-    public void startApplication(View view) {
+    public void startOpenOffice(View view) {
 
         String instanceIP = "104.155.100.210"; // Put the instance IP here!!
         String cloudPort = ":5901";
