@@ -26,7 +26,10 @@ SECRET_KEY = 'thisAppIsAwesome:)'
 
 # Initialize libcloud Google Compute Engine Driver using service account authorization
 ComputeEngine = get_driver(Provider.GCE)
-gce = ComputeEngine('860271242030-compute@developer.gserviceaccount.com', 'key/mcc-2016-g13-p1-290f94a963cb.json', project='mcc-2016-g13-p1')
+gce = ComputeEngine('860271242030-compute@developer.gserviceaccount.com', 'key/mcc-2016-g13-p1-290f94a963cb.json',
+                    datacenter='europe-west1-d', project='mcc-2016-g13-p1')
+
+running_node = None
 
 
 @auth.verify_password
@@ -81,43 +84,57 @@ def get_apps():
     return jsonify(**applications)
 
 
+# TODO: Not used at the moment
 @app.route('/isrunning/', methods=['POST'])
 @auth.login_required
 def is_running():
     isRunning = False  # TODO: check machine
     return isRunning
 
-# Test method for instance control
-# TODO: Remove this method when not needed anymore
-@app.route('/testopen/', methods=['GET'])
-def test_open():
-    node = gce.ex_get_node('tt-inkscape-1')
-    gce.ex_start_node(node)
 
-
-@app.route('/open/', methods=['POST'])
-@auth.login_required
-def open():
+@app.route('/start/', methods=['POST'])
+#@auth.login_required
+def start():
     app = request.form.get('app')
     if app == '1':
-        pass
-        # TODO: open Inkscape VM
+        node = gce.ex_get_node('tt-inkscape-1')
     elif app == '2':
-        pass
-        # TODO: open OpenOffice VM
+        node = gce.ex_get_node('tt-openoffice-1')
     else:
         return 'False'
 
-    return 'True'  # Starting VM
+    result = gce.ex_start_node(node)
+    if result:
+        nodes = [node]
+        ip = gce.wait_until_running(nodes, wait_period=2, timeout=30)
+        global running_node
+        running_node = node
+        # Check if instance has a public ip
+        try:
+            ip[0][1]
+        except IndexError:
+            return 'False'
+
+        # VM has started, respond with IP
+        return ip[0][0].public_ips[0]
+
+    return 'False'
     # TODO: Should the client remember what app it was opening (either IP or some identificator to know what to ask in "isrunning"?
 
 
-@app.route('/close/', methods=['POST'])
-@auth.login_required
-def close():
-    vm_id = request.form.get('vm_id')
-    save = request.form.get('save')  # Should it save state?
-    # TODO: Close VM
+@app.route('/stop/', methods=['POST'])
+#@auth.login_required
+def stop():
+    if running_node is None:
+        return 'False'
+
+    #vm_id = request.form.get('vm_id')
+    #save = request.form.get('save')  # Should it save state?
+
+    gce.ex_stop_node(running_node)
+
+    global running_node
+    running_node = None
     return 'True'
 
 
