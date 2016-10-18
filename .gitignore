@@ -9,3 +9,5 @@
 
 Server/main.pyc
 Server/venv/
+Server/.idea/
+Server/__pycache__/
