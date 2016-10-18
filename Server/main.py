@@ -9,6 +9,8 @@ from itsdangerous import (TimedJSONWebSignatureSerializer as Serializer, BadSign
 from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
+import subprocess
+
 auth = HTTPBasicAuth()
 
 app = Flask(__name__)
@@ -32,6 +34,7 @@ gce = ComputeEngine('860271242030-compute@developer.gserviceaccount.com', 'key/m
                     datacenter='europe-west1-d', project='mcc-2016-g13-p1')
 
 running_node = None
+running_node_name = None
 heartbeat_process = None
 
 
@@ -94,13 +97,14 @@ def get_apps():
 @auth.login_required
 def heartbeat():
     print("Heartbeat")
+    global heartbeat_process
     if heartbeat_process is None:
-        print("No heartbeat_process running")
-        return
+        print("No heartbeat process running")
+        return 'False'
 
     #restart heartbeat script
     heartbeat_process.kill()
-    heartbeat_process = subprocess.Popen("python3", "heartbeat.py")
+    heartbeat_process = subprocess.Popen(["python", "heartbeat.py", str(running_node_name)])
 
     return 'True'
 
@@ -119,13 +123,16 @@ def start():
     app = request.form.get('app')
     print("Starting " + app)
 
+    global running_node_name
+
     if app == 'inkscape':
-        node = gce.ex_get_node('tt-inkscape-1')
+        running_node_name = 'tt-inkscape-1'
     elif app == 'openoffice':
-        node = gce.ex_get_node('tt-openoffice-1')
+        running_node_name = 'tt-openoffice-1'
     else:
         return 'False'
 
+    node = gce.ex_get_node(running_node_name)
     result = gce.ex_start_node(node)
     if result:
         nodes = [node]
@@ -140,7 +147,7 @@ def start():
 
         # VM has started, respond with IP and start the heartbeat process
         global heartbeat_process
-        heartbeat_process = subprocess.Popen("python3", "heartbeat.py")
+        heartbeat_process = subprocess.Popen(["python", "heartbeat.py", running_node_name])
 
         return ip[0][0].public_ips[0]
 
@@ -151,10 +158,11 @@ def start():
 @app.route('/stop/', methods=['POST'])
 @auth.login_required
 def stop():
+    global running_node
     if running_node is None:
         return 'False'
 
-    print("Stopping " + str(running_node))
+    print("Stopping " + running_node_name)
 
     #vm_id = request.form.get('vm_id')
     #save = request.form.get('save')  # Should it save state?
@@ -163,8 +171,9 @@ def stop():
 
     heartbeat_process.kill()
 
-    global running_node
     running_node = None
+    running_node_name = None
+    heartbeat_process = None
     return 'True'
 
 
