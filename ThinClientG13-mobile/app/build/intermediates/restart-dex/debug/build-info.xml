@@ -4,7 +4,7 @@
     api-level="23"
     density="xxxhdpi"
     format="7"
-    timestamp="81018685887868"
+    timestamp="121911505369498"
     token="9194472888318408574" >
 
     <task
@@ -20,19 +20,11 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-
-    <build timestamp="80574931192201" >
+    <build timestamp="121788331061795" >
         <artifact
             location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="81018685887868" >
-        <artifact
-            location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
+    <build timestamp="121911505369498" />
 
 </instant-run>

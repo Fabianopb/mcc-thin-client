@@ -3,8 +3,10 @@ package com.mccG13;
 /**
  * Created by Иван on 16.10.2016.
  */
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
@@ -90,6 +92,11 @@ public class LoginBW extends AsyncTask<String,Void,String> {
     protected void onPostExecute(String result) {
         loading.dismiss();
         Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
+        if (result.equals("Authenticated")) {
+
+            Intent intent = new Intent(context, AppSelectionActivity.class);
+            source.startActivity(intent);
+        }
 
     }
 

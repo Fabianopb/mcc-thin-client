@@ -47,12 +47,11 @@ public class MainActivity extends Activity {
                 password = etLogPassword.getText().toString();
 
 
-                if (isOnline() && (username.equals("test")) && (password.equals("secret"))) {
+                if (isOnline()) {
 
                     LoginBW loginBW = new LoginBW(MainActivity.this, MainActivity.this);
                     loginBW.execute(username, password);
-                    Intent intent = new Intent(MainActivity.this, AppSelectionActivity.class);
-                    startActivity(intent);
+
                 } else {
                     Toast.makeText(getApplicationContext(), R.string.noInternet, Toast.LENGTH_LONG).show();
                 }
