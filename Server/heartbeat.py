@@ -2,6 +2,7 @@
 
 import time
 import sys
+import libcloud
 from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
@@ -17,7 +18,7 @@ def main():
                         datacenter='europe-west1-d', project='mcc-2016-g13-p1')
 
     gce.ex_stop_node(running_node)
-    global running_node
+
     running_node = None
 
 main()
