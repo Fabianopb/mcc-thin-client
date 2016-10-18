@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from flask import Flask
 from flask import request
 from flask import g
@@ -18,8 +20,8 @@ users = {
 }
 
 applications = {
-    "1": "Inkscape",
-    "2": "OpenOffice"
+    "inkscape": "Inkscape",
+    "openoffice": "OpenOffice"
 }
 
 SECRET_KEY = 'thisAppIsAwesome:)'
@@ -30,6 +32,7 @@ gce = ComputeEngine('860271242030-compute@developer.gserviceaccount.com', 'key/m
                     datacenter='europe-west1-d', project='mcc-2016-g13-p1')
 
 running_node = None
+heartbeat_process = None
 
 
 @auth.verify_password
@@ -74,6 +77,7 @@ def verify_auth_token(token):
 @auth.login_required
 def get_token():
     print("Token for user: " + str(g.user))
+
     token = generate_auth_token(g.user)
     return jsonify({'token': token.decode('ascii')})
 
@@ -81,7 +85,24 @@ def get_token():
 @app.route('/getapps/')
 @auth.login_required
 def get_apps():
+    print("Listing apps")
+
     return jsonify(**applications)
+
+
+@app.route('/heartbeat/')
+@auth.login_required
+def heartbeat():
+    print("Heartbeat")
+    if heartbeat_process is None:
+        print("No heartbeat_process running")
+        return
+
+    #restart heartbeat script
+    heartbeat_process.kill()
+    heartbeat_process = subprocess.Popen("python3", "heartbeat.py")
+
+    return 'True'
 
 
 # TODO: Not used at the moment
@@ -96,9 +117,11 @@ def is_running():
 @auth.login_required
 def start():
     app = request.form.get('app')
-    if app == '1':
+    print("Starting " + app)
+
+    if app == 'inkscape':
         node = gce.ex_get_node('tt-inkscape-1')
-    elif app == '2':
+    elif app == 'openoffice':
         node = gce.ex_get_node('tt-openoffice-1')
     else:
         return 'False'
@@ -115,7 +138,10 @@ def start():
         except IndexError:
             return 'False'
 
-        # VM has started, respond with IP
+        # VM has started, respond with IP and start the heartbeat process
+        global heartbeat_process
+        heartbeat_process = subprocess.Popen("python3", "heartbeat.py")
+
         return ip[0][0].public_ips[0]
 
     return 'False'
@@ -128,14 +154,23 @@ def stop():
     if running_node is None:
         return 'False'
 
+    print("Stopping " + str(running_node))
+
     #vm_id = request.form.get('vm_id')
     #save = request.form.get('save')  # Should it save state?
 
     gce.ex_stop_node(running_node)
 
+    heartbeat_process.kill()
+
     global running_node
     running_node = None
     return 'True'
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return 'Sorry, nothing at this URL.', 404
 
 
 # NOT USED VVVVV
@@ -159,7 +194,3 @@ def form():
 def hello():
     return 'Welcome to the backend!'
 
-
-@app.errorhandler(404)
-def page_not_found(e):
-    return 'Sorry, nothing at this URL.', 404
