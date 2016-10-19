@@ -10,6 +10,7 @@ from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
 import subprocess
+import hashlib
 
 auth = HTTPBasicAuth()
 
@@ -27,6 +28,7 @@ applications = {
 }
 
 SECRET_KEY = 'thisAppIsAwesome:)'
+PASSWD_STRING = 'passwordString'
 
 # Initialize libcloud Google Compute Engine Driver using service account authorization
 ComputeEngine = get_driver(Provider.GCE)
@@ -47,6 +49,7 @@ def verify_password(user_token, password):
     else:
         if user_token in users:
             if password == users.get(user_token):
+            #if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING):
                 g.user = user_token
                 return True
 
@@ -151,6 +154,8 @@ def start():
         global heartbeat_process
         heartbeat_process = subprocess.Popen(["python", "heartbeat.py", running_node_name])
 
+        print("Started")
+
         return ip[0][0].public_ips[0]
 
     return 'False: Not starting '
@@ -161,6 +166,7 @@ def start():
 @auth.login_required
 def stop():
     global running_node
+    global running_node_name
     if running_node is None:
         return 'False'
 
@@ -176,6 +182,7 @@ def stop():
     running_node = None
     running_node_name = None
     heartbeat_process = None
+    print("Stopped")
     return 'True'
 
 
