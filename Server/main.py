@@ -122,7 +122,7 @@ def is_running():
 def start():
     app = request.form.get('app')
     if app is None:
-        return 'False'
+        return 'False: No application'
     print("Starting " + str(app))
 
     global running_node_name
@@ -132,7 +132,7 @@ def start():
     elif app == 'openoffice':
         running_node_name = 'tt-openoffice-1'
     else:
-        return 'False'
+        return 'False: Wrong application'
 
     node = gce.ex_get_node(running_node_name)
     result = gce.ex_start_node(node)
@@ -145,7 +145,7 @@ def start():
         try:
             ip[0][1]
         except IndexError:
-            return 'False'
+            return 'False: IndexError'
 
         # VM has started, respond with IP and start the heartbeat process
         global heartbeat_process
@@ -153,7 +153,7 @@ def start():
 
         return ip[0][0].public_ips[0]
 
-    return 'False'
+    return 'False: Not starting '
     # TODO: Should the client remember what app it was opening (either IP or some identificator to know what to ask in "isrunning"?
 
 
