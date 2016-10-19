@@ -9,6 +9,7 @@
     <string name="open_office_button">Open Office</string>
     <string name="inkscape_button">Inkscape</string>
     <string name="choose_your_app">Please choose the virtual application that you want to start by clicking on its image</string>
+    <string name="login_error">Something went wrong with your login</string>
 
 
     <string name="address_caption">Address</string>

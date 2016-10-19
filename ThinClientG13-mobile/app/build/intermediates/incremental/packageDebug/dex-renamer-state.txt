@@ -1,4 +1,4 @@
-#Wed Oct 19 16:36:13 EEST 2016
+#Wed Oct 19 20:50:42 EEST 2016
 base.0=/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ba820ef897f00cf62aedfe8362ccdeca1aa2833
 renamed.1=classes2.dex
 renamed.0=classes.dex

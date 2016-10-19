@@ -12,6 +12,8 @@ import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.coboltforge.dontmind.multivnc.R;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -89,24 +91,29 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPostExecute(String result) {
-        String token = "";
-        try {
-            JSONObject jsonObj = new JSONObject(result);
-            token = jsonObj.getString("token");
-        } catch (JSONException e) {
-            Log.e("Error", e.toString());
+        if(result != null) {
+            String token = "";
+            try {
+                JSONObject jsonObj = new JSONObject(result);
+                token = jsonObj.getString("token");
+            } catch (JSONException e) {
+                Log.e("Parsing error", e.toString());
+            }
+            if (!token.equals("")) {
+                Intent intent = new Intent(context, AppSelectionActivity.class);
+                source.startActivity(intent);
+            } else {
+                Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
+            }
+        } else {
+            Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
         }
         loading.dismiss();
 
         //From here we call /getapps/ to bring a list of the available applications
         //Only then we start the next activity with the applications for the user to select
 
-        Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
-        if (result.equals("Authenticated")) {
 
-            Intent intent = new Intent(context, AppSelectionActivity.class);
-            source.startActivity(intent);
-        }
 
     }
 
