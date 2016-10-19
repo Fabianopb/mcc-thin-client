@@ -10,6 +10,7 @@
     <string name="inkscape_button">Inkscape</string>
     <string name="choose_your_app">Please choose the virtual application that you want to start by clicking on its image</string>
     <string name="login_error">Something went wrong with your login</string>
+    <string name="get_apps_error">Damn it, we couldn\'t get the list of apps, sorry!</string>
 
 
     <string name="address_caption">Address</string>
@@ -177,5 +178,5 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="log_in">LOG IN</string>
-    <string name="noInternet">Wrong credentials(\n Please, try again</string>
+    <string name="noInternet">It seems you don\'t have a stable internet connection... :/</string>
 </resources>

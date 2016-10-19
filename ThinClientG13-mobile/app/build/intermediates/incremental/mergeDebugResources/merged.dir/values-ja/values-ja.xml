@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="address_caption">アドレス</string>
+    <string name="alt_check">Alt</string>
+    <string name="app_name">MultiVNC</string>
+    <string name="arrow_down">下キー</string>
+    <string name="arrow_left">左キー</string>
+    <string name="arrow_right">右キー</string>
+    <string name="arrow_up">上キー</string>
+    <string name="button_send_text">テキストを送信</string>
+    <string name="center_mouse">ポインターへ</string>
+    <string name="color_format_caption">色数</string>
+    <string name="color_mode">彩色モード</string>
+    <string name="connect_button">接続</string>
+    <string name="connection_caption">コネクション</string>
+    <string name="control_check">Ctrl</string>
+    <string name="copy_list_button">リストをコピー</string>
+    <string name="ctrl_alt_del">Ctrl-Alt-Del</string>
+    <string name="delete_connection">コネクションを消す</string>
+    <string name="delete_key">キーを消す</string>
+    <string name="delete_key_list">リストを消す</string>
+    <string name="disconnect">終了</string>
+    <string name="enter_text">テキスト入力</string>
+    <string name="enter_text_title">テキスト名</string>
+    <string name="fit_to_screen">画面にあわせる</string>
+    <string name="force_full_check">全画面ビットマップ</string>
+    <string name="info">情報</string>
+    <string name="input_mode">入力モード</string>
+    <string name="input_mode_fit_to_screen">パンなし; トラクボールマウス</string>
+    <string name="input_mode_mouse">マウスで操作モード</string>
+    <string name="input_mode_panning">デスクトップパンモード</string>
+    <string name="input_mode_touch_pan_zoom_mouse">タッチマウスでパンとズーム</string>
+    <string name="input_mode_touchpad">Touchpad</string>
+    <string name="keep_password_button">保存</string>
+    <string name="keys_caption">キー</string>
+    <string name="list_caption">リスト</string>
+    <string name="list_name_caption">リスト名</string>
+    <string name="local_mouse_check">ローカルポインター</string>
+    <string name="meta_key_title">特殊キー</string>
+    <string name="mouse_follow_pan">マウスがパンを追う</string>
+    <string name="new_list_button">新リスト</string>
+    <string name="nickname_caption">コネクション名</string>
+    <string name="one_to_one">1:1</string>
+    <string name="open_doc">説明書/Wiki</string>
+    <string name="pan_follow_mouse">マウスがパンを追う</string>
+    <string name="password_caption">パスワード</string>
+    <string name="port_caption">ポート</string>
+    <string name="save_as_copy">コピーとして保存</string>
+    <string name="scaling">スケーリング</string>
+    <string name="scaling_zoomable">ズーム可能</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string name="send_button">送信</string>
+    <string name="send_key_again">キーを繰り返す</string>
+    <string name="shift_check">Shift</string>
+    <string name="special_keys">特殊キー</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

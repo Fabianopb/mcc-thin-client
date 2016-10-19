@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.coboltforge.dontmind.multivnc.R;
 
@@ -16,6 +17,9 @@ public class AppSelectionActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_selection);
+        Bundle extras = getIntent().getExtras();
+        String[] appsArray = extras.getStringArray("appsArray");
+        Toast.makeText(this, appsArray[0] + " and " + appsArray[1], Toast.LENGTH_SHORT).show();
     }
 
     public void startOpenOffice(View view) {

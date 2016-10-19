@@ -3,11 +3,12 @@ package com.mccG13;
 /**
  * Created by Иван on 16.10.2016.
  */
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.AsyncTask;
+import android.os.Handler;
 import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
@@ -18,16 +19,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLEncoder;
 
 
 
@@ -86,7 +83,7 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPreExecute() {
-        loading = ProgressDialog.show(context, "Please wait...", null, true, true);
+        loading = ProgressDialog.show(context, "Authenticating...", null, true, true);
     }
 
     @Override
@@ -100,21 +97,31 @@ public class LoginBW extends AsyncTask<String,Void,String> {
                 Log.e("Parsing error", e.toString());
             }
             if (!token.equals("")) {
-                Intent intent = new Intent(context, AppSelectionActivity.class);
-                source.startActivity(intent);
+                source.putSharedPreferences("token", token);
+                final Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        loading.dismiss();
+                        RetrieveAppsBW retrieveAppsBWBW = new RetrieveAppsBW(source, context);
+                        retrieveAppsBWBW.execute(source.getSharedPreferences("token"), "");
+                    }
+                }, 1000);
+
+
+
             } else {
+                loading.dismiss();
                 Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
             }
         } else {
+            loading.dismiss();
             Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
         }
-        loading.dismiss();
+
 
         //From here we call /getapps/ to bring a list of the available applications
         //Only then we start the next activity with the applications for the user to select
-
-
-
     }
 
     @Override
