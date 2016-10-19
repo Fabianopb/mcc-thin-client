@@ -121,7 +121,9 @@ def is_running():
 @auth.login_required
 def start():
     app = request.form.get('app')
-    print("Starting " + app)
+    if app is None:
+        return 'False'
+    print("Starting " + str(app))
 
     global running_node_name
 
