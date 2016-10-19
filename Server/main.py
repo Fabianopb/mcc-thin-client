@@ -157,7 +157,7 @@ def start():
     # TODO: Should the client remember what app it was opening (either IP or some identificator to know what to ask in "isrunning"?
 
 
-@app.route('/stop/', methods=['POST'])
+@app.route('/stop/')
 @auth.login_required
 def stop():
     global running_node
