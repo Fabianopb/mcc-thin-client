@@ -28,10 +28,6 @@
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/og.png",
-        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/og.png"
-    },
-    {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_item_background_holo_dark.xml"
     },
@@ -56,24 +52,24 @@
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/specialkeys.png"
     },
     {
-        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/keyboard.png",
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/keyboard.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/btn_zoom_down_pressed.9.png",
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/btn_zoom_down_pressed.9.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_normal.9.png",
@@ -84,12 +80,12 @@
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_pressed.9.png",
-        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/btn_zoom_up_pressed.9.png"
-    },
-    {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/mouse_icon.png",
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/mouse_icon.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_pressed.9.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/btn_zoom_up_pressed.9.png"
     },
     {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/inkscape.png",
@@ -182,6 +178,10 @@
     {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/openoffice.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/drawable/openoffice.png"
     },
     {
         "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/drawable/btn_zoom_up_disabled_focused.9.png",

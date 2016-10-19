@@ -85,7 +85,7 @@ public class RetrieveAppsBW extends AsyncTask<String,Void,String> {
     @Override
     protected void onPostExecute(String result) {
         if(result != null) {
-            final String[] appsArray = new String[10];
+            final String[] appsArray = new String[2];
             try {
                 JSONObject jsonObj = new JSONObject(result);
                 appsArray[0] = jsonObj.getString("openoffice");
