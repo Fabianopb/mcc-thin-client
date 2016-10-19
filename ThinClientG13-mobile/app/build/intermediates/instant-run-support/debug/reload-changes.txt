@@ -1,4 +1,0 @@
-CHANGED,D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mccG13\MainActivity$1$override.class
-CHANGED,D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mccG13\MainActivity$override.class
-CHANGED,D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\mccG13\LoginBW$override.class
-CHANGED,D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

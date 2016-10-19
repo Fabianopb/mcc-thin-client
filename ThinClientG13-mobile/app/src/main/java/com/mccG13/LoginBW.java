@@ -8,7 +8,12 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Base64;
+import android.util.Log;
 import android.widget.Toast;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -38,7 +43,7 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String login_url = "http://mcc-2016-g13-p1.appspot.com/form/";
+        String login_url = "http://104.199.9.28/token/";
 
         try {
             String username = params[0];
@@ -47,27 +52,21 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
             // creating an http connection to communicate with url
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-            httpURLConnection.setRequestMethod("POST");
-            httpURLConnection.setDoOutput(true);
+            httpURLConnection.setRequestMethod("GET");
+            String credentials = username + ":" + password;
+            String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT);
+            httpURLConnection.setRequestProperty("Authorization", "Basic " + credBase64);
             httpURLConnection.setDoInput(true);
-
-            // sending a request to server to check is username:password pair correct
-            OutputStream outputStream = httpURLConnection.getOutputStream();
-            BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
-            String post_data = URLEncoder.encode("user", "UTF-8") + "=" + URLEncoder.encode(username, "UTF-8") + "&"
-                    + URLEncoder.encode("password", "UTF-8") + "=" + URLEncoder.encode(password, "UTF-8");
-            bufferedWriter.write(post_data);
-            bufferedWriter.flush();
-            bufferedWriter.close();
-            outputStream.close();
+            httpURLConnection.setUseCaches(false);
+            httpURLConnection.connect();
 
             // reading answer from server
             InputStream inputStream = httpURLConnection.getInputStream();
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
             String result = "";
             String line = "";
             while ((line = bufferedReader.readLine()) != null) {
-                result = line;
+                result += line;
             }
             bufferedReader.close();
             inputStream.close();
@@ -90,7 +89,18 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPostExecute(String result) {
+        String token = "";
+        try {
+            JSONObject jsonObj = new JSONObject(result);
+            token = jsonObj.getString("token");
+        } catch (JSONException e) {
+            Log.e("Error", e.toString());
+        }
         loading.dismiss();
+
+        //From here we call /getapps/ to bring a list of the available applications
+        //Only then we start the next activity with the applications for the user to select
+
         Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
         if (result.equals("Authenticated")) {
 

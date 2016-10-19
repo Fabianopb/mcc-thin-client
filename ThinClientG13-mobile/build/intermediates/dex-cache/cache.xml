@@ -1,3 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_baaed9d1648cdf50770a10b1192991981f016a91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a653cff867f1dfb5dc5dd736802509ecd8459f59">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e0ec200b7c9068096d3e8f9a8696b88ae654d37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f0dcbc2b94dd79bd8902e956d1a10ed26d7b0712/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="78f2bd78ee8c77be95e1cfe2381c0039f7078f79">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ba820ef897f00cf62aedfe8362ccdeca1aa2833/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_84d1ff9b6be416b02eb1ae2d1ba9d9c065fe5366/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_af5767061d2bf54947be474b8f97993c0f2a602f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_a74c87b2f511b077025fda2ece2b9c5c6858aa42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_55e6a53cdf551073c033e68581147b070627df67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_eac50d1be8f876cacc999c849bdb3d71d8435469/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_f663a876c8afa7b8e8fa0971cd143dfc2a8a54f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/libs/jmdns.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="78ce3ad2e909a0590377e37baeec89e9905134c4">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/jmdns_3a02d6ca55c61fa882759affe8b97700ab22d2b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_58a140ae8d71257cf2b102622156c7a3ec4c9d5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8088f9a0f27c1bead11c1dac24768c44badf12bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4ef4822520df8acfe7330027f15827c8f5b9040e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0c068d0c83d52dd9e7ca67e2cafb6b49cf18389c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/libs/GoogleAdMobAdsSdk-6.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="17a2415dbd2bbf5e1b9e8aa27d03f666c71396ad">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/GoogleAdMobAdsSdk-6.3.1_4895f194ff109e926d81fe0e8f56074f000f1465/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_eaaab44cea408ab40b1c91ab3a46da5c4b0c266f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/libs/com.antlersoft.android.db.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="22b26205ed95ecc9ff1e029024b3187ca0fd86b6">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/com.antlersoft.android.db_69ad1e6c84fae2f1244917bb637313f595708c21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/libs/com.antlersoft.android.contentxml.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0430d5248664e4f08d8b150bb5a9d947767a94ba">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/2/com.antlersoft.android.contentxml_6a21c37a7b722fe08d4f87d85d7ec6d5350c95be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_99d2efd0c28fc27025e87bda7997b2dc57003ed5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_4f450561982b1119a68436c5c2f2d00f80fcebb2/classes.dex" />
+    </item>
+
+</items>

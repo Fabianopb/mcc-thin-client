@@ -1,30 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="xxxhdpi"
-    format="7"
-    timestamp="121911505369498"
-    token="9194472888318408574" >
+    abi="x86"
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="1151018830121869"
+    token="-6853835974403590079"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="230" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="422" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="26" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
-    <build timestamp="121788331061795" >
+    <artifact
+        location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="1147570195906316"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\outputs\apk\app-debug.apk"
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="121911505369498" />
+    <build
+        timestamp="1149692324356351"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1149927023633286"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1149927023633286/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1149961785501447"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1149961785501447/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1149985079589555"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1149985079589555/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1150045406710288"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1150045406710288/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1150058615141736"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1150058615141736/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1150657232863237"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1150657232863237/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1150777758294946"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1150777758294946/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1150798933556830"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/builds/debug/1150798933556830/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1151018830121869"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
 
 </instant-run>
