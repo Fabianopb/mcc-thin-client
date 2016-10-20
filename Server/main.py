@@ -29,6 +29,7 @@ applications = {
 
 SECRET_KEY = 'thisAppIsAwesome:)'
 PASSWD_STRING = 'passwordString'
+TOKEN_EXPIRATION = 3600 # 60 minutes
 
 # Initialize libcloud Google Compute Engine Driver using service account authorization
 ComputeEngine = get_driver(Provider.GCE)
@@ -56,7 +57,7 @@ def verify_password(user_token, password):
     return False
 
 
-def generate_auth_token(user, expiration=1200):  # 1200~20minutes
+def generate_auth_token(user, expiration=TOKEN_EXPIRATION):  # 1200~20minutes
     # s = Serializer(app.config['SECRET_KEY'], expires_in = expiration)
     s = Serializer(SECRET_KEY, expires_in=expiration)
     # print('dumps:' + str(s.dumps({ 'user': user })))
@@ -169,6 +170,7 @@ def start():
 def stop():
     global running_node
     global running_node_name
+    global heartbeat_process
     if running_node is None:
         return 'False'
 

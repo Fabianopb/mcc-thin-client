@@ -4,6 +4,9 @@ sudo chown mborekcz /etc/authbind/byport/80
 sudo chmod 755 /etc/authbind/byport/80
 ################
 sudo apt-get install virtualenv python-pip python3-dev
+###############To be able to run heartbeat.py
+sudo pip install apache-libcloud
+###############
 mkdir venvs
 #virtualenv venvs/myproject
 virtualenv ~/myapp
@@ -36,3 +39,6 @@ authbind gunicorn main:app --bind 0.0.0.0:80
 authbind gunicorn -t 300 main:app --bind 0.0.0.0:80
 ################
 deactivate
+
+##
+
