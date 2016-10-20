@@ -33,5 +33,6 @@ cd ~/mcc-2016-g13-p1/Server
 authbind gunicorn -w3 --certfile=cer/backend_certificate.pem --keyfile=cer/nopass_key.pem main:app --bind 0.0.0.0:443
 ################
 authbind gunicorn main:app --bind 0.0.0.0:80
+authbind gunicorn -t 300 main:app --bind 0.0.0.0:80
 ################
 deactivate

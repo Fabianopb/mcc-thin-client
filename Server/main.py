@@ -109,7 +109,9 @@ def heartbeat():
     heartbeat_process.kill()
     heartbeat_process = subprocess.Popen(["python", "heartbeat.py", str(running_node_name)])
 
-    return 'True'
+
+    token = generate_auth_token(g.user)
+    return jsonify({'token': token.decode('ascii')})
 
 
 # TODO: Not used at the moment
