@@ -8,9 +8,8 @@ from flask_httpauth import HTTPBasicAuth
 from itsdangerous import (TimedJSONWebSignatureSerializer as Serializer, BadSignature, SignatureExpired)
 from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
-
+import json
 import subprocess
-import hashlib
 
 auth = HTTPBasicAuth()
 
@@ -22,14 +21,19 @@ users = {
     "newuser": "securePassword"
 }
 
-applications = {
-    "inkscape": "Inkscape",
-    "openoffice": "OpenOffice"
-}
-
+apps = {"apps": [
+    {
+        "instanceName": "openoffice",
+        "readableName": "OpenOffice"
+    },
+    {
+        "instanceName": "inkscape",
+        "readableName": "Inkscape"
+    }
+]}
 SECRET_KEY = 'thisAppIsAwesome:)'
 PASSWD_STRING = 'passwordString'
-TOKEN_EXPIRATION = 3600 # 60 minutes
+TOKEN_EXPIRATION = 3600  # 60 minutes
 
 # Initialize libcloud Google Compute Engine Driver using service account authorization
 ComputeEngine = get_driver(Provider.GCE)
@@ -50,7 +54,7 @@ def verify_password(user_token, password):
     else:
         if user_token in users:
             if password == users.get(user_token):
-            #if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING):
+                # if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING):
                 g.user = user_token
                 return True
 
@@ -93,8 +97,7 @@ def get_token():
 @auth.login_required
 def get_apps():
     print("Listing apps")
-
-    return jsonify(**applications)
+    return json.dumps(apps)
 
 
 @app.route('/heartbeat/')
@@ -106,21 +109,12 @@ def heartbeat():
         print("No heartbeat process running")
         return 'False'
 
-    #restart heartbeat script
+    # restart heartbeat script
     heartbeat_process.kill()
     heartbeat_process = subprocess.Popen(["python", "heartbeat.py", str(running_node_name)])
 
-
     token = generate_auth_token(g.user)
     return jsonify({'token': token.decode('ascii')})
-
-
-# TODO: Not used at the moment
-@app.route('/isrunning/', methods=['POST'])
-@auth.login_required
-def is_running():
-    isRunning = False  # TODO: check machine
-    return isRunning
 
 
 @app.route('/start/', methods=['POST'])
@@ -162,7 +156,6 @@ def start():
         return ip[0][0].public_ips[0]
 
     return 'False: Not starting '
-    # TODO: Should the client remember what app it was opening (either IP or some identificator to know what to ask in "isrunning"?
 
 
 @app.route('/stop/')
@@ -175,9 +168,6 @@ def stop():
         return 'False'
 
     print("Stopping " + running_node_name)
-
-    #vm_id = request.form.get('vm_id')
-    #save = request.form.get('save')  # Should it save state?
 
     gce.ex_stop_node(running_node)
 
@@ -195,7 +185,7 @@ def page_not_found(e):
     return 'Sorry, nothing at this URL.', 404
 
 
-# NOT USED VVVVV
+# TODO: NOT USED VVVVV
 @app.route('/auth/')
 @auth.login_required
 def auth():
@@ -215,4 +205,3 @@ def form():
 @app.route('/')
 def hello():
     return 'Welcome to the backend!'
-
