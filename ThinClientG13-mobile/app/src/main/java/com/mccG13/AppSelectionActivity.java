@@ -41,13 +41,10 @@ public class AppSelectionActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_selection);
 
-        Log.v("WOOT", "created activity");
-
         Bundle extras = getIntent().getExtras();
         final String appsJSONString = extras.getString("appsJSONString");
 
         try {
-            Log.v("WOOT", "trying to parse JSON");
             JSONObject jsonObj = new JSONObject(appsJSONString);
             JSONArray jsonArray = jsonObj.getJSONArray("apps");
             int numOfApps = jsonArray.length();
@@ -60,10 +57,12 @@ public class AppSelectionActivity extends Activity {
             ListView list = (ListView) findViewById(R.id.apps_listview);
             AppListAdapter adapter = new AppListAdapter(this, instancesNames, readableNames);
             list.setAdapter(adapter);
+
             list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
                     SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
                     String token = sharedPref.getString("token", "");
 
@@ -87,5 +86,18 @@ public class AppSelectionActivity extends Activity {
         Intent intent = new Intent(this, com.coboltforge.dontmind.multivnc.VncCanvasActivity.class);
         intent.setData(Uri.parse("vnc://" + instanceIP + cloudPort + colorScheme + instancePwd));
         startActivity(intent);
+    }
+
+    @Override
+    public void onRestart() {
+        super.onRestart();
+
+        Log.v("WOOT", "Let's stop the instance...");
+
+        SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
+        String token = sharedPref.getString("token", "");
+
+        StopVMBW stopVMBW = new StopVMBW(AppSelectionActivity.this, AppSelectionActivity.this);
+        stopVMBW.execute(token, "");
     }
 }
