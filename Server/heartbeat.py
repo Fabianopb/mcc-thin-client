@@ -16,7 +16,7 @@ def main():
     running_node_name = sys.argv[1]
     print("Heartbeat for " + str(running_node_name))
 
-    #time.sleep(60*30) # 30 minutes
+    time.sleep(60*30) # 30 minutes
     print("No heartbeat,  killing " + str(running_node_name))
 
     # Initialize libcloud Google Compute Engine Driver using service account authorization
