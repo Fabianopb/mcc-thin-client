@@ -21,7 +21,7 @@ users = {
     "newuser": "securePassword"
 }
 
-apps = [
+apps = {"apps": [
     {
         "instanceName": "openoffice",
         "readableName": "OpenOffice"
@@ -30,8 +30,7 @@ apps = [
         "instanceName": "inkscape",
         "readableName": "Inkscape"
     }
-]
-
+]}
 SECRET_KEY = 'thisAppIsAwesome:)'
 PASSWD_STRING = 'passwordString'
 TOKEN_EXPIRATION = 3600  # 60 minutes
