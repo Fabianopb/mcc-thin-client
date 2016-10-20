@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.coboltforge.dontmind.multivnc.R;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -79,34 +80,36 @@ public class RetrieveAppsBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPreExecute() {
-        loading = ProgressDialog.show(context, "Getting apps list...", null, true, true);
+        loading = ProgressDialog.show(context, source.getResources().getString(R.string.get_apps_dialog), null, true, true);
     }
 
     @Override
-    protected void onPostExecute(String result) {
+    protected void onPostExecute(final String result) {
         if(result != null) {
-            final String[] appsArray = new String[2];
+            int numOfApps = 0;
             try {
                 JSONObject jsonObj = new JSONObject(result);
-                appsArray[0] = jsonObj.getString("openoffice");
-                appsArray[1] = jsonObj.getString("inkscape");
+                JSONArray jsonArray = jsonObj.getJSONArray("apps");
+                numOfApps = jsonArray.length();
+                if(numOfApps > 0) {
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            loading.dismiss();
+                            Intent intent = new Intent(context, AppSelectionActivity.class);
+                            intent.putExtra("appsJSONString", result);
+                            source.startActivity(intent);
+                        }
+                    }, 1000);
+                } else {
+                    loading.dismiss();
+                    Toast.makeText(context, R.string.get_apps_error, Toast.LENGTH_SHORT).show();
+                }
+
+
             } catch (JSONException e) {
                 Log.e("Parsing error", e.toString());
-            }
-            if(appsArray[0] != null) {
-                final Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        loading.dismiss();
-                        Intent intent = new Intent(context, AppSelectionActivity.class);
-                        intent.putExtra("appsArray", appsArray);
-                        source.startActivity(intent);
-                    }
-                }, 1000);
-            } else {
-                loading.dismiss();
-                Toast.makeText(context, R.string.get_apps_error, Toast.LENGTH_SHORT).show();
             }
         } else {
             loading.dismiss();

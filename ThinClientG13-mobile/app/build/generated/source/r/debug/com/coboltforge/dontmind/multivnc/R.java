@@ -2194,20 +2194,21 @@ containing a value of this type.
         public static final int shift_check=0x7f050027;
         public static final int shortcut_label=0x7f050028;
         public static final int special_keys=0x7f050029;
+        public static final int start_vm_error=0x7f05008f;
         public static final int status_bar_notification_info_overflow=0x7f050014;
-        public static final int support_dialog_neveragain=0x7f05008f;
-        public static final int support_dialog_no=0x7f050090;
-        public static final int support_dialog_text=0x7f050091;
-        public static final int support_dialog_title=0x7f050092;
-        public static final int support_dialog_yes=0x7f050093;
-        public static final int toggle_framebuffer_update=0x7f050094;
-        public static final int toggle_keyboard=0x7f050095;
-        public static final int toggle_mouse_buttons=0x7f050096;
-        public static final int toggle_pointer_highlight=0x7f050097;
-        public static final int username=0x7f050098;
+        public static final int support_dialog_neveragain=0x7f050090;
+        public static final int support_dialog_no=0x7f050091;
+        public static final int support_dialog_text=0x7f050092;
+        public static final int support_dialog_title=0x7f050093;
+        public static final int support_dialog_yes=0x7f050094;
+        public static final int toggle_framebuffer_update=0x7f050095;
+        public static final int toggle_keyboard=0x7f050096;
+        public static final int toggle_mouse_buttons=0x7f050097;
+        public static final int toggle_pointer_highlight=0x7f050098;
+        public static final int username=0x7f050099;
         public static final int username_caption=0x7f050052;
         public static final int username_hint=0x7f050053;
-        public static final int username_placeholder=0x7f050099;
+        public static final int username_placeholder=0x7f05009a;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f07008a;

@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="f84439dcb91e941d53e8525a50e8a281f7b6e65a">
+        sha1="5d341f5c824778765709f322de62f20ec22c0016">
         <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e0ec200b7c9068096d3e8f9a8696b88ae654d37/classes.dex" />
     </item>
     <item
@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="999369d8b008baa6e302a7e0ee2636272ba4e6ef">
+        sha1="03290960d0fe8008265b0bcfb85721b3fd71e9de">
         <dex dex="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2ba820ef897f00cf62aedfe8362ccdeca1aa2833/classes.dex" />
     </item>
     <item

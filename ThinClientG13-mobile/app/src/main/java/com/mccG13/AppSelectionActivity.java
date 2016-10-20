@@ -3,11 +3,14 @@ package com.mccG13;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -20,35 +23,63 @@ import android.widget.Toast;
 
 import com.coboltforge.dontmind.multivnc.R;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class AppSelectionActivity extends Activity {
+
+    public AppSelectionActivity source = this;
+
+    /*public AppSelectionActivity(AppSelectionActivity fl, Context ctx) {
+        source = fl;
+        context = ctx;
+    }*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_selection);
 
+        Log.v("WOOT", "created activity");
+
         Bundle extras = getIntent().getExtras();
-        final String[] appsArray = extras.getStringArray("appsArray");
+        final String appsJSONString = extras.getString("appsJSONString");
 
-        AppListAdapter adapter = new AppListAdapter(this, appsArray);
-        ListView list = (ListView) findViewById(R.id.apps_listview);
-        list.setAdapter(adapter);
-
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String Selecteditem = appsArray[+position];
-                Toast.makeText(getApplicationContext(), Selecteditem, Toast.LENGTH_SHORT).show();
-                // TODO: call the start url to start the virtual machine
-                // TODO: with the response from the virtual machine finally start the multiVNC using the method below
+        try {
+            Log.v("WOOT", "trying to parse JSON");
+            JSONObject jsonObj = new JSONObject(appsJSONString);
+            JSONArray jsonArray = jsonObj.getJSONArray("apps");
+            int numOfApps = jsonArray.length();
+            final String[] readableNames = new String[jsonArray.length()];
+            final String[] instancesNames = new String[jsonArray.length()];
+            for(int i = 0; i < numOfApps; i++) {
+                readableNames[i] = jsonArray.getJSONObject(i).getString("readableName");
+                instancesNames[i] = jsonArray.getJSONObject(i).getString("instanceName");
             }
-        });
+            ListView list = (ListView) findViewById(R.id.apps_listview);
+            AppListAdapter adapter = new AppListAdapter(this, instancesNames, readableNames);
+            list.setAdapter(adapter);
+            list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
+                    String token = sharedPref.getString("token", "");
+
+                    StartVMBW startVMBW = new StartVMBW(AppSelectionActivity.this, AppSelectionActivity.this);
+                    startVMBW.execute(token, "", instancesNames[position]);
+
+                }
+            });
+        } catch (JSONException e) {
+            Log.e("Parsing error", e.toString());
+        }
+
     }
 
-    public void startOpenOffice(View view) {
+    public void startVirtualApp(String instanceIP) {
 
-        String instanceIP = ""; // Put the instance IP here!!
         String cloudPort = ":5901";
         String colorScheme = "/C24bit";
         String instancePwd = "/tReFre4r";

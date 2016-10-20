@@ -83,36 +83,36 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPreExecute() {
-        loading = ProgressDialog.show(context, "Authenticating...", null, true, true);
+        loading = ProgressDialog.show(context, source.getResources().getString(R.string.login_dialog), null, true, true);
     }
 
     @Override
     protected void onPostExecute(String result) {
         if(result != null) {
-            String token = "";
+            final String token;
             try {
                 JSONObject jsonObj = new JSONObject(result);
                 token = jsonObj.getString("token");
+                if (!token.equals("")) {
+                    SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putString("token", token);
+                    editor.apply();
+                    final Handler handler = new Handler();
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            loading.dismiss();
+                            RetrieveAppsBW retrieveAppsBW = new RetrieveAppsBW(source, context);
+                            retrieveAppsBW.execute(token, "");
+                        }
+                    }, 1000);
+                } else {
+                    loading.dismiss();
+                    Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
+                }
             } catch (JSONException e) {
                 Log.e("Parsing error", e.toString());
-            }
-            if (!token.equals("")) {
-                source.putSharedPreferences("token", token);
-                final Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        loading.dismiss();
-                        RetrieveAppsBW retrieveAppsBWBW = new RetrieveAppsBW(source, context);
-                        retrieveAppsBWBW.execute(source.getSharedPreferences("token"), "");
-                    }
-                }, 1000);
-
-
-
-            } else {
-                loading.dismiss();
-                Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
             }
         } else {
             loading.dismiss();

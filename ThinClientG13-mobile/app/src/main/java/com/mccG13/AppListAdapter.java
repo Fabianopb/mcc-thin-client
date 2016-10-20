@@ -19,13 +19,15 @@ import com.coboltforge.dontmind.multivnc.R;
 public class AppListAdapter extends ArrayAdapter<String> {
 
     private final Activity context;
-    private final String[] itemname;
+    private final String[] idName;
+    private final String[] displayName;
 
-    public AppListAdapter(Activity context, String[] itemname) {
-        super(context, R.layout.app_list_item, itemname);
+    public AppListAdapter(Activity context, String[] idName, String[] displayName) {
+        super(context, R.layout.app_list_item, idName);
 
         this.context = context;
-        this.itemname = itemname;
+        this.idName = idName;
+        this.displayName = displayName;
     }
 
     public View getView(int i, View view, ViewGroup parent) {
@@ -36,8 +38,8 @@ public class AppListAdapter extends ArrayAdapter<String> {
         TextView appName = (TextView) rowView.findViewById(R.id.app_name);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.app_icon);
 
-        appName.setText(itemname[i]);
-        int id = context.getResources().getIdentifier(itemname[i].toLowerCase(), "drawable", context.getPackageName());
+        appName.setText(displayName[i]);
+        int id = context.getResources().getIdentifier(idName[i], "drawable", context.getPackageName());
         imageView.setImageResource(id);
 
         return rowView;

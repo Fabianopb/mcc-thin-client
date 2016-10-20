@@ -32,19 +32,6 @@ public class MainActivity extends Activity {
         return false;
     }
 
-    public String getSharedPreferences(String key) {
-        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
-        String value = sharedPref.getString(key, "");
-        return value;
-    }
-
-    public void putSharedPreferences(String key, String value) {
-        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putString(key, value);
-        editor.apply();
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,9 +39,6 @@ public class MainActivity extends Activity {
 
         etLogUsername = (EditText) findViewById(R.id.etLogUsername);
         etLogPassword = (EditText) findViewById(R.id.etLogPassword);
-
-
-
 
         // Login button
         Button btnLogin = (Button) findViewById(R.id.login);
@@ -68,10 +52,7 @@ public class MainActivity extends Activity {
                 if (isOnline()) {
 
                     LoginBW loginBW = new LoginBW(MainActivity.this, MainActivity.this);
-                    loginBW.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, username, password);
-
-                    //RetrieveAppsBW retrieveAppsBWBW = new RetrieveAppsBW(MainActivity.this, MainActivity.this);
-                    //retrieveAppsBWBW.executeOnExecutor(AsyncTask.SERIAL_EXECUTOR, getSharedPreferences("token"), "");
+                    loginBW.execute(username, password);
 
                 } else {
                     Toast.makeText(getApplicationContext(), R.string.noInternet, Toast.LENGTH_LONG).show();
