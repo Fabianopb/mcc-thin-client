@@ -45,21 +45,21 @@ public class MainActivity extends Activity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                username = etLogUsername.getText().toString();
-                password = etLogPassword.getText().toString();
+            username = etLogUsername.getText().toString();
+            password = etLogPassword.getText().toString();
 
 
-                if (isOnline()) {
+            if (isOnline()) {
 
-                    LoginBW loginBW = new LoginBW(MainActivity.this, MainActivity.this);
-                    loginBW.execute(username, password);
+                LoginBW loginBW = new LoginBW(MainActivity.this, MainActivity.this);
+                loginBW.execute(username, password);
 
-                } else {
-                    Toast.makeText(getApplicationContext(), R.string.noInternet, Toast.LENGTH_LONG).show();
-                }
+            } else {
+                Toast.makeText(getApplicationContext(), R.string.noInternet, Toast.LENGTH_LONG).show();
+            }
             }
         });
 
-
     }
+
 }

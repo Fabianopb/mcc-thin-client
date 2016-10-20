@@ -119,9 +119,6 @@ public class LoginBW extends AsyncTask<String,Void,String> {
             Toast.makeText(context, R.string.login_error, Toast.LENGTH_SHORT).show();
         }
 
-
-        //From here we call /getapps/ to bring a list of the available applications
-        //Only then we start the next activity with the applications for the user to select
     }
 
     @Override

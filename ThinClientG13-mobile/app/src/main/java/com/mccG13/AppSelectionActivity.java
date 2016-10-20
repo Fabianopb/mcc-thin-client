@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.Handler;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -30,16 +31,15 @@ import org.json.JSONObject;
 public class AppSelectionActivity extends Activity {
 
     public AppSelectionActivity source = this;
-
-    /*public AppSelectionActivity(AppSelectionActivity fl, Context ctx) {
-        source = fl;
-        context = ctx;
-    }*/
+    private int heartFrequency = 10; // 10 minutes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_selection);
+
+        SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
+        String token = sharedPref.getString("token", "");
 
         Bundle extras = getIntent().getExtras();
         final String appsJSONString = extras.getString("appsJSONString");
@@ -63,7 +63,7 @@ public class AppSelectionActivity extends Activity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                    SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
+                    SharedPreferences sharedPref = AppSelectionActivity.this.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
                     String token = sharedPref.getString("token", "");
 
                     StartVMBW startVMBW = new StartVMBW(AppSelectionActivity.this, AppSelectionActivity.this);
@@ -71,13 +71,36 @@ public class AppSelectionActivity extends Activity {
 
                 }
             });
+
         } catch (JSONException e) {
             Log.e("Parsing error", e.toString());
         }
 
     }
 
+    private Handler heartHandler = new Handler();
+    private Runnable heartRunnable = new Runnable() {
+        @Override
+        public void run() {
+            SharedPreferences sharedPref = AppSelectionActivity.this.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
+            String token = sharedPref.getString("token", "");
+            HeartbeatBW heartbeatBW = new HeartbeatBW(AppSelectionActivity.this, AppSelectionActivity.this);
+            heartbeatBW.execute(token, "");
+            startHeartBeat();
+        }
+    };
+
+    private void startHeartBeat() {
+        heartHandler.postDelayed(heartRunnable, heartFrequency * 60 * 1000);
+    }
+
+    private void stopHeartBeat() {
+        heartHandler.removeCallbacks(heartRunnable);
+    }
+
     public void startVirtualApp(String instanceIP) {
+
+        startHeartBeat();
 
         String cloudPort = ":5901";
         String colorScheme = "/C24bit";
@@ -89,10 +112,16 @@ public class AppSelectionActivity extends Activity {
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        stopHeartBeat();
+    }
+
+    @Override
     public void onRestart() {
         super.onRestart();
 
-        Log.v("WOOT", "Let's stop the instance...");
+        stopHeartBeat();
 
         SharedPreferences sharedPref = source.getSharedPreferences("sessionData", Context.MODE_PRIVATE);
         String token = sharedPref.getString("token", "");
@@ -100,4 +129,11 @@ public class AppSelectionActivity extends Activity {
         StopVMBW stopVMBW = new StopVMBW(AppSelectionActivity.this, AppSelectionActivity.this);
         stopVMBW.execute(token, "");
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        stopHeartBeat();
+    }
+
 }
