@@ -59,4 +59,16 @@ android:layout_height="match_parent">
 </RelativeLayout>
 
 
+    <TextView
+    android:id="@+id/textview_latitude"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"/>
+    <TextView
+        android:id="@+id/textview_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textview_latitude"
+        android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>

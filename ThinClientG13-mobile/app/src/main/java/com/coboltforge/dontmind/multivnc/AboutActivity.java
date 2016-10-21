@@ -58,8 +58,8 @@ public class AboutActivity extends Activity {
 		});
 		
 		// Look up the AdView as a resource and load a request.
-	    AdView adView = (AdView)this.findViewById(R.id.ad);
-	    adView.loadAd(new AdRequest());
+	   // AdView adView = (AdView)this.findViewById(R.id.ad);
+		//adView.loadAd(new AdRequest());
 	}
 	
 	

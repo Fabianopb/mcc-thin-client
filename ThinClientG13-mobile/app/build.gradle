@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
 
     defaultConfig {
         applicationId "com.coboltforge.dontmind.multivnc"
         minSdkVersion 17
-        targetSdkVersion 24
+        targetSdkVersion 23
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -19,9 +20,12 @@ android {
 }
 
 dependencies {
-    compile files('libs/GoogleAdMobAdsSdk-6.3.1.jar')
+
     compile files('libs/com.antlersoft.android.contentxml.jar')
     compile files('libs/com.antlersoft.android.db.jar')
     compile files('libs/jmdns.jar')
-    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:support-v4:23.2.1'
 }

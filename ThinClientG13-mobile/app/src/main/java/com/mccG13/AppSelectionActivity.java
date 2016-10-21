@@ -28,10 +28,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class AppSelectionActivity extends Activity {
+public class AppSelectionActivity extends MainActivity {
 
     public AppSelectionActivity source = this;
     private int heartFrequency = 10; // 10 minutes
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,9 +51,29 @@ public class AppSelectionActivity extends Activity {
             int numOfApps = jsonArray.length();
             final String[] readableNames = new String[jsonArray.length()];
             final String[] instancesNames = new String[jsonArray.length()];
-            for(int i = 0; i < numOfApps; i++) {
-                readableNames[i] = jsonArray.getJSONObject(i).getString("readableName");
-                instancesNames[i] = jsonArray.getJSONObject(i).getString("instanceName");
+
+            //changing the order of applications;
+            //if you are in CS-building then the order is openoff-inksc
+            if (MainActivity.c.equals("Inside"))
+                for (int i = 0; i < numOfApps; i++) {
+                    readableNames[i] = jsonArray.getJSONObject(i).getString("readableName");
+                    instancesNames[i] = jsonArray.getJSONObject(i).getString("instanceName");
+                }
+
+            else {
+                {
+                    for (int i = 0; i < numOfApps; i++) {
+                        readableNames[i] = jsonArray.getJSONObject(i).getString("readableName");
+                        instancesNames[i] = jsonArray.getJSONObject(i).getString("instanceName");
+                    }
+                    String tempR, tempI;
+                    tempR=readableNames[1];
+                    tempI=instancesNames[1];
+                    readableNames[1]=readableNames[0];
+                    instancesNames[1]=instancesNames[0];
+                    readableNames[0]=tempR;
+                    instancesNames[0]=tempI;
+                }
             }
             ListView list = (ListView) findViewById(R.id.apps_listview);
             AppListAdapter adapter = new AppListAdapter(this, instancesNames, readableNames);

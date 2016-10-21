@@ -17,7 +17,7 @@
     <string name="get_apps_error">Houston! Docking failed! No apps could be retrieved</string>
     <string name="start_vm_error">Houston! We couldn\'t conclude the rendez-vouz...</string>
     <string name="login_dialog">Connecting to mission control...</string>
-    <string name="get_apps_dialog">Getting ready for docking...</string>
+    <string name="get_apps_dialog">Getting your location\nGetting ready for docking...</string>
     <string name="start_vm_dialog">Preparing for the rendez-vouz! Fingers crossed and be patient, this can take a while...</string>
 
     <string name="address_caption">Address</string>

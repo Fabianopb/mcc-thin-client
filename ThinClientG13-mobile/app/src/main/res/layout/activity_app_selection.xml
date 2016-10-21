@@ -16,7 +16,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:layout_gravity="center"
-        android:text="Welcome"
+        android:text="Choose the application"
         android:textSize="20sp" />
     <ListView
         android:id="@+id/apps_listview"

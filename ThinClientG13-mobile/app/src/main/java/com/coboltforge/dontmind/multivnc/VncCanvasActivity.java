@@ -933,10 +933,7 @@ public class VncCanvasActivity extends Activity {
 			connection.save(database.getWritableDatabase());
 			Toast.makeText(this, getString(R.string.bookmark_saved), Toast.LENGTH_SHORT).show();
 			return true;
-		case R.id.itemAbout:
-			Intent intent = new Intent (this, AboutActivity.class);
-			this.startActivity(intent);
-			return true;
+
 		case R.id.itemHelp:
 			Intent helpIntent = new Intent (this, HelpActivity.class);
 			this.startActivity(helpIntent);

@@ -1,0 +1,60 @@
+-injars 'D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\android\build-tools\23.0.0\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'D:\ThinClientG13\mcc-2016-g13-p1\ThinClientG13-mobile\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.coboltforge.dontmind.multivnc.MainMenuActivity {
+    <init>();
+}
+
+-keep class com.coboltforge.dontmind.multivnc.VncCanvasActivity {
+    <init>();
+}
+
+-keep class com.coboltforge.dontmind.multivnc.ConnectionListActivity {
+    <init>();
+}
+
+-keep class com.coboltforge.dontmind.multivnc.EditBookmarkActivity {
+    <init>();
+}
+
+-keep class com.coboltforge.dontmind.multivnc.HelpActivity {
+    <init>();
+}
+
+-keep class com.coboltforge.dontmind.multivnc.MDNSService {
+    <init>();
+}
+
+-keep class com.mccG13.MainActivity {
+    <init>();
+}
+
+-keep class com.mccG13.AppSelectionActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}
