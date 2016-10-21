@@ -12,6 +12,7 @@ virtualenv ~/myapp
 source ~/myapp/bin/activate
 pip install -r requirements.txt
 pip install flask gunicorn
+pip install pycrypto
 ################
 mkdir ~/myapp
 cd ~/myapp
