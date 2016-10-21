@@ -10,6 +10,7 @@ from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 import json
 import subprocess
+import hashlib
 
 auth = HTTPBasicAuth()
 
@@ -54,7 +55,7 @@ def verify_password(user_token, password):
     else:
         if user_token in users:
             if password == users.get(user_token):
-                # if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING):
+                # if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING).hexdigest():
                 g.user = user_token
                 return True
 
