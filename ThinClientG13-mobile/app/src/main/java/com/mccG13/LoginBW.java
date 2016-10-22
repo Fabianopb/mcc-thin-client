@@ -76,7 +76,7 @@ public class LoginBW extends AsyncTask<String,Void,String> {
             // creating an http connection to communicate with url
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setRequestMethod("GET");
-            String credentials = username + ":" + password;
+            String credentials = username + ":" + securePassword;
             String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT).replace("\n", "");
             httpURLConnection.setRequestProperty("Authorization", "Basic " + credBase64);
             httpURLConnection.setDoInput(true);
