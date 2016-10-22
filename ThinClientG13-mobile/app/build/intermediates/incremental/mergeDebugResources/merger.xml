@@ -1784,7 +1784,7 @@
         <item>3 hours</item>
         <item>6 hours</item>
         <item>Never</item>
-    </string-array><string name="start_vm_dialog">Preparing for the rendez-vouz! Fingers crossed and be patient, this can take a while...</string><string name="support_dialog_neveragain">Never ask again!</string><string name="server_pref">Server address</string><string name="login_button">LOG IN</string><string-array name="pref_sync_frequency_values">
+    </string-array><string name="start_vm_dialog">Preparing for the rendez-vouz! Fingers crossed and be patient...</string><string name="support_dialog_neveragain">Never ask again!</string><string name="server_pref">Server address</string><string name="login_button">LOG IN</string><string-array name="pref_sync_frequency_values">
         <item>15</item>
         <item>30</item>
         <item>60</item>

@@ -782,7 +782,7 @@
     <string name="shift_check">Shift</string>
     <string name="shortcut_label">VNC Connection Shortcut</string>
     <string name="special_keys">Key Combo</string>
-    <string name="start_vm_dialog">Preparing for the rendez-vouz! Fingers crossed and be patient, this can take a while...</string>
+    <string name="start_vm_dialog">Preparing for the rendez-vouz! Fingers crossed and be patient...</string>
     <string name="start_vm_error">Houston! We couldn\'t conclude the rendez-vouz...</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
