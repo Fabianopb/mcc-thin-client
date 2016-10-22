@@ -22,10 +22,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 
 // sending JSON request to server and getting answer
@@ -43,17 +45,34 @@ public class LoginBW extends AsyncTask<String,Void,String> {
     @Override
     protected String doInBackground(String... params) {
         String login_url = "http://104.199.9.28/token/";
+        String username = params[0];
+        String password = params[1];
+        String securePassword = null;
 
         try {
-            String username = params[0];
-            String password = params[1];
+            MessageDigest md = MessageDigest.getInstance("SHA-512");
+            byte[] bytes = md.digest(new String(password).getBytes("UTF-8"));
+            StringBuilder sb = new StringBuilder();
+            for(int i=0; i< bytes.length ;i++){
+                sb.append(Integer.toString((bytes[i] & 0xff) + 0x100, 16).substring(1));
+            }
+            securePassword = sb.toString();
+        }
+        catch (NoSuchAlgorithmException e){
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+
+        try {
             URL url = new URL(login_url);
 
             // creating an http connection to communicate with url
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setRequestMethod("GET");
-            String credentials = username + ":" + password;
-            String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT);
+            String credentials = username + ":" + securePassword;
+            String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT).replace("\n", "");
             httpURLConnection.setRequestProperty("Authorization", "Basic " + credBase64);
             httpURLConnection.setDoInput(true);
             httpURLConnection.setUseCaches(false);
