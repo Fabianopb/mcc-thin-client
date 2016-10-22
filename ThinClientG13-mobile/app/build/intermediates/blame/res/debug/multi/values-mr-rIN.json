@@ -6,12 +6,12 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 105,
+                    "startOffset": 55,
                     "endColumn": 117,
-                    "endOffset": 218
+                    "endOffset": 168
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -25,12 +25,12 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 223,
+                    "startOffset": 173,
                     "endColumn": 107,
-                    "endOffset": 326
+                    "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -44,12 +44,12 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 331,
+                    "startOffset": 281,
                     "endColumn": 122,
-                    "endOffset": 449
+                    "endOffset": 399
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -63,12 +63,12 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 454,
+                    "startOffset": 404,
                     "endColumn": 105,
-                    "endOffset": 555
+                    "endOffset": 505
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -82,12 +82,12 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 560,
+                    "startOffset": 510,
                     "endColumn": 106,
-                    "endOffset": 662
+                    "endOffset": 612
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -101,12 +101,12 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 667,
+                    "startOffset": 617,
                     "endColumn": 89,
-                    "endOffset": 752
+                    "endOffset": 702
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -120,12 +120,12 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 757,
+                    "startOffset": 707,
                     "endColumn": 100,
-                    "endOffset": 853
+                    "endOffset": 803
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -139,12 +139,12 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 858,
+                    "startOffset": 808,
                     "endColumn": 114,
-                    "endOffset": 968
+                    "endOffset": 918
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -158,12 +158,12 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 973,
+                    "startOffset": 923,
                     "endColumn": 76,
-                    "endOffset": 1045
+                    "endOffset": 995
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -177,12 +177,12 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1050,
+                    "startOffset": 1000,
                     "endColumn": 77,
-                    "endOffset": 1123
+                    "endOffset": 1073
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -196,12 +196,12 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1128,
+                    "startOffset": 1078,
                     "endColumn": 79,
-                    "endOffset": 1203
+                    "endOffset": 1153
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -215,12 +215,12 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1208,
+                    "startOffset": 1158,
                     "endColumn": 111,
-                    "endOffset": 1315
+                    "endOffset": 1265
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -234,12 +234,12 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1320,
+                    "startOffset": 1270,
                     "endColumn": 101,
-                    "endOffset": 1417
+                    "endOffset": 1367
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -253,12 +253,12 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1422,
+                    "startOffset": 1372,
                     "endColumn": 95,
-                    "endOffset": 1513
+                    "endOffset": 1463
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -272,12 +272,12 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1518,
+                    "startOffset": 1468,
                     "endColumn": 108,
-                    "endOffset": 1622
+                    "endOffset": 1572
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -291,12 +291,12 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1627,
+                    "startOffset": 1577,
                     "endColumn": 100,
-                    "endOffset": 1723
+                    "endOffset": 1673
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -310,12 +310,12 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1728,
+                    "startOffset": 1678,
                     "endColumn": 114,
-                    "endOffset": 1838
+                    "endOffset": 1788
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -329,12 +329,12 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1843,
+                    "startOffset": 1793,
                     "endColumn": 122,
-                    "endOffset": 1961
+                    "endOffset": 1911
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -348,12 +348,12 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1966,
+                    "startOffset": 1916,
                     "endColumn": 104,
-                    "endOffset": 2066
+                    "endOffset": 2016
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2071,
-                    "endColumn": 168,
-                    "endOffset": 2235
+                    "startOffset": 2021,
+                    "endColumn": 97,
+                    "endOffset": 2114
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 651,
-                        "endColumn": 168,
-                        "endOffset": 815
+                        "startOffset": 55,
+                        "endColumn": 97,
+                        "endOffset": 148
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2240,
-                    "endColumn": 156,
-                    "endOffset": 2392
+                    "startOffset": 2119,
+                    "endColumn": 98,
+                    "endOffset": 2213
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 2604,
-                        "endColumn": 156,
-                        "endOffset": 2756
+                        "startOffset": 153,
+                        "endColumn": 98,
+                        "endOffset": 247
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2397,
-                    "endColumn": 116,
-                    "endOffset": 2509
+                    "startOffset": 2218,
+                    "endColumn": 88,
+                    "endOffset": 2302
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 2328,
-                        "endColumn": 116,
-                        "endOffset": 2440
+                        "startOffset": 252,
+                        "endColumn": 88,
+                        "endOffset": 336
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2514,
-                    "endColumn": 126,
-                    "endOffset": 2636
+                    "startOffset": 2307,
+                    "endColumn": 91,
+                    "endOffset": 2394
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 2072,
-                        "endColumn": 126,
-                        "endOffset": 2194
+                        "startOffset": 341,
+                        "endColumn": 91,
+                        "endOffset": 428
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2641,
-                    "endColumn": 161,
-                    "endOffset": 2798
+                    "startOffset": 2399,
+                    "endColumn": 110,
+                    "endOffset": 2505
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 1910,
-                        "endColumn": 161,
-                        "endOffset": 2067
+                        "startOffset": 433,
+                        "endColumn": 110,
+                        "endOffset": 539
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2803,
-                    "endColumn": 124,
-                    "endOffset": 2923
+                    "startOffset": 2510,
+                    "endColumn": 97,
+                    "endOffset": 2603
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 1785,
-                        "endColumn": 124,
-                        "endOffset": 1905
+                        "startOffset": 544,
+                        "endColumn": 97,
+                        "endOffset": 637
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2928,
-                    "endColumn": 174,
-                    "endOffset": 3098
+                    "startOffset": 2608,
+                    "endColumn": 98,
+                    "endOffset": 2702
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 991,
-                        "endColumn": 178,
-                        "endOffset": 1165
+                        "startOffset": 642,
+                        "endColumn": 98,
+                        "endOffset": 736
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3103,
-                    "endColumn": 123,
-                    "endOffset": 3222
+                    "startOffset": 2707,
+                    "endColumn": 99,
+                    "endOffset": 2802
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1661,
-                        "endColumn": 123,
-                        "endOffset": 1780
+                        "startOffset": 741,
+                        "endColumn": 99,
+                        "endOffset": 836
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3227,
-                    "endColumn": 185,
-                    "endOffset": 3408
+                    "startOffset": 2807,
+                    "endColumn": 96,
+                    "endOffset": 2899
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1291,
-                        "endColumn": 185,
-                        "endOffset": 1472
+                        "startOffset": 841,
+                        "endColumn": 96,
+                        "endOffset": 933
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3413,
-                    "endColumn": 183,
-                    "endOffset": 3592
+                    "startOffset": 2904,
+                    "endColumn": 116,
+                    "endOffset": 3016
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1477,
-                        "endColumn": 183,
-                        "endOffset": 1656
+                        "startOffset": 938,
+                        "endColumn": 116,
+                        "endOffset": 1050
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3597,
-                    "endColumn": 120,
-                    "endOffset": 3713
+                    "startOffset": 3021,
+                    "endColumn": 108,
+                    "endOffset": 3125
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1170,
-                        "endColumn": 120,
-                        "endOffset": 1286
+                        "startOffset": 1055,
+                        "endColumn": 108,
+                        "endOffset": 1159
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3718,
-                    "endColumn": 186,
-                    "endOffset": 3900
+                    "startOffset": 3130,
+                    "endColumn": 83,
+                    "endOffset": 3209
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 3168,
-                        "endColumn": 186,
-                        "endOffset": 3350
+                        "startOffset": 1164,
+                        "endColumn": 83,
+                        "endOffset": 1243
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3905,
-                    "endColumn": 117,
-                    "endOffset": 4018
+                    "startOffset": 3214,
+                    "endColumn": 84,
+                    "endOffset": 3294
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 3050,
-                        "endColumn": 117,
-                        "endOffset": 3163
+                        "startOffset": 1248,
+                        "endColumn": 84,
+                        "endOffset": 1328
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4023,
-                    "endColumn": 170,
-                    "endOffset": 4189
+                    "startOffset": 3299,
+                    "endColumn": 94,
+                    "endOffset": 3389
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 820,
-                        "endColumn": 170,
-                        "endOffset": 986
+                        "startOffset": 1333,
+                        "endColumn": 94,
+                        "endOffset": 1423
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4194,
-                    "endColumn": 167,
-                    "endOffset": 4357
+                    "startOffset": 3394,
+                    "endColumn": 85,
+                    "endOffset": 3475
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2882,
-                        "endColumn": 167,
-                        "endOffset": 3045
+                        "startOffset": 1428,
+                        "endColumn": 85,
+                        "endOffset": 1509
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4362,
-                    "endColumn": 120,
-                    "endOffset": 4478
+                    "startOffset": 3480,
+                    "endColumn": 96,
+                    "endOffset": 3572
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2761,
-                        "endColumn": 120,
-                        "endOffset": 2877
+                        "startOffset": 1514,
+                        "endColumn": 96,
+                        "endOffset": 1606
                     }
                 }
             },
@@ -671,240 +671,12 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4483,
-                    "endColumn": 178,
-                    "endOffset": 4657
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 300,
-                        "endColumn": 178,
-                        "endOffset": 474
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 4662,
-                    "endColumn": 171,
-                    "endOffset": 4829
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 479,
-                        "endColumn": 171,
-                        "endOffset": 646
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 4834,
-                    "endColumn": 129,
-                    "endOffset": 4959
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 129,
-                        "endOffset": 295
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 4964,
-                    "endColumn": 134,
-                    "endOffset": 5094
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3355,
-                        "endColumn": 134,
-                        "endOffset": 3485
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 5099,
-                    "endColumn": 245,
-                    "endOffset": 5340
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 3611,
-                        "endColumn": 245,
-                        "endOffset": 3852
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 5345,
-                    "endColumn": 120,
-                    "endOffset": 5461
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 3490,
-                        "endColumn": 120,
-                        "endOffset": 3606
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 5466,
-                    "endColumn": 112,
-                    "endOffset": 5574
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 3857,
-                        "endColumn": 112,
-                        "endOffset": 3965
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 5579,
-                    "endColumn": 158,
-                    "endOffset": 5733
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2445,
-                        "endColumn": 158,
-                        "endOffset": 2599
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 5738,
-                    "endColumn": 128,
-                    "endOffset": 5862
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2199,
-                        "endColumn": 128,
-                        "endOffset": 2323
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 5867,
-                    "endColumn": 88,
-                    "endOffset": 5951
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4177,
-                        "endColumn": 88,
-                        "endOffset": 4261
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 5956,
-                    "endColumn": 95,
-                    "endOffset": 6047
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 3970,
-                        "endColumn": 95,
-                        "endOffset": 4061
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 6052,
-                    "endColumn": 110,
-                    "endOffset": 6158
-                },
-                "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-mr-rIN/common_strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4066,
-                        "endColumn": 110,
-                        "endOffset": 4172
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 6163,
+                    "startOffset": 3577,
                     "endColumn": 100,
-                    "endOffset": 6259
+                    "endOffset": 3673
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-mr-rIN/values-mr-rIN.xml",
+                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/values-mr-rIN/values-mr-rIN.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

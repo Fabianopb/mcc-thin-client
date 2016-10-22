@@ -5,9 +5,9 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="1256109445832135"
+    timestamp="1259729952675710"
     token="-6853835974403590079"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -22,22 +22,16 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
     <build
-        timestamp="1255171298431451"
+        timestamp="1259729952675710"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="1256100415818898"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="1256109445832135"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
