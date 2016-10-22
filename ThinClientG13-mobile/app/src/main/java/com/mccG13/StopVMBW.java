@@ -2,7 +2,9 @@ package com.mccG13;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
+import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
@@ -34,7 +36,11 @@ public class StopVMBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String get_apps_url = "http://104.199.9.28/stop/";
+
+        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(context);
+        String server_ip = SP.getString("server_ip", context.getResources().getString(R.string.server_default_ip));
+
+        String get_apps_url = "http://" + server_ip + "/stop/";
 
         try {
             String token = params[0];

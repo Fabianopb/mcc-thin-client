@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
@@ -39,42 +40,45 @@ public class HeartbeatBW extends AsyncTask<String,Void,String> {
     @Override
     protected String doInBackground(String... params) {
 
-            String get_apps_url = "http://104.199.9.28/heartbeat/";
+        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(context);
+        String server_ip = SP.getString("server_ip", context.getResources().getString(R.string.server_default_ip));
 
-            try {
-                String token = params[0];
-                String blank = params[1];
-                URL url = new URL(get_apps_url);
+        String get_apps_url = "http://" + server_ip + "/heartbeat/";
 
-                // creating an http connection to communicate with url
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-                httpURLConnection.setRequestMethod("GET");
-                String credentials = token + ":" + blank;
-                String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT).replace("\n", "");
-                httpURLConnection.setRequestProperty("Authorization", "Basic " + credBase64);
-                httpURLConnection.setDoInput(true);
-                httpURLConnection.setUseCaches(false);
-                httpURLConnection.connect();
+        try {
+            String token = params[0];
+            String blank = params[1];
+            URL url = new URL(get_apps_url);
 
-                // reading answer from server
-                InputStream inputStream = httpURLConnection.getInputStream();
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
-                String result = "";
-                String line = "";
-                while ((line = bufferedReader.readLine()) != null) {
-                    result += line;
-                }
-                bufferedReader.close();
-                inputStream.close();
+            // creating an http connection to communicate with url
+            HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+            httpURLConnection.setRequestMethod("GET");
+            String credentials = token + ":" + blank;
+            String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT).replace("\n", "");
+            httpURLConnection.setRequestProperty("Authorization", "Basic " + credBase64);
+            httpURLConnection.setDoInput(true);
+            httpURLConnection.setUseCaches(false);
+            httpURLConnection.connect();
 
-                httpURLConnection.disconnect();
-                return result;
-
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
+            // reading answer from server
+            InputStream inputStream = httpURLConnection.getInputStream();
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+            String result = "";
+            String line = "";
+            while ((line = bufferedReader.readLine()) != null) {
+                result += line;
             }
+            bufferedReader.close();
+            inputStream.close();
+
+            httpURLConnection.disconnect();
+            return result;
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         return null;
     }

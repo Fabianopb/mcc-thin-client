@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
@@ -44,7 +45,11 @@ public class LoginBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String login_url = "http://104.199.9.28/token/";
+
+        SharedPreferences SP = PreferenceManager.getDefaultSharedPreferences(context);
+        String server_ip = SP.getString("server_ip", context.getResources().getString(R.string.server_default_ip));
+
+        String login_url = "http://" + server_ip + "/token/";
         String username = params[0];
         String password = params[1];
         String securePassword = null;
@@ -71,7 +76,7 @@ public class LoginBW extends AsyncTask<String,Void,String> {
             // creating an http connection to communicate with url
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setRequestMethod("GET");
-            String credentials = username + ":" + securePassword;
+            String credentials = username + ":" + password;
             String credBase64 = Base64.encodeToString(credentials.getBytes(), Base64.DEFAULT).replace("\n", "");
             httpURLConnection.setRequestProperty("Authorization", "Basic " + credBase64);
             httpURLConnection.setDoInput(true);
