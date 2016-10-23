@@ -6,6 +6,7 @@ ThinClientG13-mobile/local.properties
 ThinClientG13-mobile/.idea/workspace.xml
 ThinClientG13-mobile/.idea/libraries
 ThinClientG13-mobile/build
+ThinClientG13-mobile/app/build
 ThinClientG13-mobile/captures
 
 Server/main.pyc
