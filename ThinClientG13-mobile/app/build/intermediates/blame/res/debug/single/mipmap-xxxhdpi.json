@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]
