@@ -2,7 +2,7 @@
 
 ## How to start
 
-* For the frontend you can either import the _ThinClientG13-mobile_ project into Android Studio and build the APK or simply install the APK located in [this folder](/ThinClientG13-mobile/app/build/outputs/app-debug.apk).
+* For the frontend you can either import the _ThinClientG13-mobile_ project into Android Studio and build the APK or simply install the APK [from this folder](https://git.niksula.hut.fi/cs-e4100/mcc-2016-g13-p1/tree/master/ThinClientG13-mobile/app/build/outputs/apk).
 
 
 ## In this repository you will find
