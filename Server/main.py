@@ -18,8 +18,8 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 
 users = {
-    "test": "secret",
-    "newuser": "securePassword"
+    "test": "bd2b1aaf7ef4f09be9f52ce2d8d599674d81aa9d6a4421696dc4d93dd0619d682ce56b4d64a9ef097761ced99e0f67265b5f76085e5b0ee7ca4696b2ad6fe2b2", # passwd=secret
+    "newuser": "857b95a7e57b32249f27d1e425fbadab6b0d51adee4e251c50d7c6b5d137d775b7d053dacf778ffb19faf840ee20d511d7450262602d4e18d539addcf9c847cb" # passwd=securePassword
 }
 
 apps = {"apps": [
@@ -55,7 +55,7 @@ def verify_password(user_token, password):
     else:
         if user_token in users:
             if password == users.get(user_token):
-                # if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING).hexdigest():
+            #if password == hashlib.sha512(users.get(user_token) + PASSWD_STRING).hexdigest():
                 g.user = user_token
                 return True
 
