@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+        "outputFile": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 97
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 55,
+                        "startOffset": 57,
                         "endColumn": 46,
-                        "endOffset": 97
+                        "endOffset": 99
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 139
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 102,
+                        "startOffset": 105,
                         "endColumn": 41,
-                        "endOffset": 139
+                        "endOffset": 142
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 185
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 144,
+                        "startOffset": 148,
                         "endColumn": 45,
-                        "endOffset": 185
+                        "endOffset": 189
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 227
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 190,
+                        "startOffset": 195,
                         "endColumn": 41,
-                        "endOffset": 227
+                        "endOffset": 232
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 269
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 232,
+                        "startOffset": 238,
                         "endColumn": 41,
-                        "endOffset": 269
+                        "endOffset": 275
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 312
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 274,
+                        "startOffset": 281,
                         "endColumn": 42,
-                        "endOffset": 312
+                        "endOffset": 319
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 352
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 317,
+                        "startOffset": 325,
                         "endColumn": 39,
-                        "endOffset": 352
+                        "endOffset": 360
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 402
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 357,
+                        "startOffset": 366,
                         "endColumn": 49,
-                        "endOffset": 402
+                        "endOffset": 411
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 448
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
-                        "startOffset": 403,
+                        "startOffset": 413,
                         "endColumn": 41,
-                        "endOffset": 444
+                        "endOffset": 454
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 502
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
-                        "startOffset": 445,
+                        "startOffset": 456,
                         "endColumn": 49,
-                        "endOffset": 494
+                        "endOffset": 505
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 546
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
-                        "startOffset": 495,
+                        "startOffset": 507,
                         "endColumn": 39,
-                        "endOffset": 534
+                        "endOffset": 546
                     }
                 }
             },
@@ -220,13 +220,13 @@
                     "endOffset": 597
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 0,
-                        "startOffset": 2888,
+                        "startOffset": 2952,
                         "endColumn": 46,
-                        "endOffset": 2934
+                        "endOffset": 2998
                     }
                 }
             },
@@ -239,13 +239,13 @@
                     "endOffset": 643
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
-                        "startOffset": 535,
+                        "startOffset": 548,
                         "endColumn": 41,
-                        "endOffset": 576
+                        "endOffset": 589
                     }
                 }
             },
@@ -258,13 +258,13 @@
                     "endOffset": 693
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
-                        "startOffset": 577,
+                        "startOffset": 591,
                         "endColumn": 45,
-                        "endOffset": 622
+                        "endOffset": 636
                     }
                 }
             },
@@ -277,13 +277,13 @@
                     "endOffset": 740
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
-                        "startOffset": 623,
+                        "startOffset": 638,
                         "endColumn": 42,
-                        "endOffset": 665
+                        "endOffset": 680
                     }
                 }
             },
@@ -296,13 +296,13 @@
                     "endOffset": 790
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
-                        "startOffset": 666,
+                        "startOffset": 682,
                         "endColumn": 45,
-                        "endOffset": 711
+                        "endOffset": 727
                     }
                 }
             },
@@ -315,13 +315,13 @@
                     "endOffset": 844
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
-                        "startOffset": 712,
+                        "startOffset": 729,
                         "endColumn": 49,
-                        "endOffset": 761
+                        "endOffset": 778
                     }
                 }
             },
@@ -334,13 +334,13 @@
                     "endOffset": 895
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
-                        "startOffset": 762,
+                        "startOffset": 780,
                         "endColumn": 46,
-                        "endOffset": 808
+                        "endOffset": 826
                     }
                 }
             },
@@ -353,13 +353,13 @@
                     "endOffset": 940
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
-                        "startOffset": 809,
+                        "startOffset": 828,
                         "endColumn": 40,
-                        "endOffset": 849
+                        "endOffset": 868
                     }
                 }
             },
@@ -372,13 +372,13 @@
                     "endOffset": 990
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 0,
-                        "startOffset": 850,
+                        "startOffset": 870,
                         "endColumn": 45,
-                        "endOffset": 895
+                        "endOffset": 915
                     }
                 }
             },
@@ -391,13 +391,13 @@
                     "endOffset": 1034
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 0,
-                        "startOffset": 896,
+                        "startOffset": 917,
                         "endColumn": 39,
-                        "endOffset": 935
+                        "endOffset": 956
                     }
                 }
             },
@@ -410,13 +410,13 @@
                     "endOffset": 1078
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 0,
-                        "startOffset": 986,
+                        "startOffset": 1009,
                         "endColumn": 39,
-                        "endOffset": 1025
+                        "endOffset": 1048
                     }
                 }
             },
@@ -429,13 +429,13 @@
                     "endOffset": 1132
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 0,
-                        "startOffset": 936,
+                        "startOffset": 958,
                         "endColumn": 49,
-                        "endOffset": 985
+                        "endOffset": 1007
                     }
                 }
             },
@@ -448,13 +448,13 @@
                     "endOffset": 1179
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 0,
-                        "startOffset": 1026,
+                        "startOffset": 1050,
                         "endColumn": 42,
-                        "endOffset": 1068
+                        "endOffset": 1092
                     }
                 }
             },
@@ -467,13 +467,13 @@
                     "endOffset": 1231
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 0,
-                        "startOffset": 1069,
+                        "startOffset": 1094,
                         "endColumn": 47,
-                        "endOffset": 1116
+                        "endOffset": 1141
                     }
                 }
             },
@@ -486,13 +486,13 @@
                     "endOffset": 1267
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 0,
-                        "startOffset": 1117,
+                        "startOffset": 1143,
                         "endColumn": 31,
-                        "endOffset": 1148
+                        "endOffset": 1174
                     }
                 }
             },
@@ -505,13 +505,13 @@
                     "endOffset": 1311
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 0,
-                        "startOffset": 1149,
+                        "startOffset": 1176,
                         "endColumn": 39,
-                        "endOffset": 1188
+                        "endOffset": 1215
                     }
                 }
             },
@@ -524,13 +524,13 @@
                     "endOffset": 1375
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 0,
-                        "startOffset": 1189,
+                        "startOffset": 1217,
                         "endColumn": 59,
-                        "endOffset": 1248
+                        "endOffset": 1276
                     }
                 }
             },
@@ -543,13 +543,13 @@
                     "endOffset": 1429
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 0,
-                        "startOffset": 1249,
+                        "startOffset": 1278,
                         "endColumn": 49,
-                        "endOffset": 1298
+                        "endOffset": 1327
                     }
                 }
             },
@@ -562,13 +562,13 @@
                     "endOffset": 1481
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 0,
-                        "startOffset": 1299,
+                        "startOffset": 1329,
                         "endColumn": 47,
-                        "endOffset": 1346
+                        "endOffset": 1376
                     }
                 }
             },
@@ -581,13 +581,13 @@
                     "endOffset": 1552
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 0,
-                        "startOffset": 1347,
+                        "startOffset": 1378,
                         "endColumn": 66,
-                        "endOffset": 1413
+                        "endOffset": 1444
                     }
                 }
             },
@@ -600,13 +600,13 @@
                     "endOffset": 1604
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 0,
-                        "startOffset": 1414,
+                        "startOffset": 1446,
                         "endColumn": 47,
-                        "endOffset": 1461
+                        "endOffset": 1493
                     }
                 }
             },
@@ -619,13 +619,13 @@
                     "endOffset": 1656
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 47,
-                        "startOffset": 1461,
+                        "startOffset": 1493,
                         "endColumn": 94,
-                        "endOffset": 1508
+                        "endOffset": 1540
                     }
                 }
             },
@@ -638,13 +638,13 @@
                     "endOffset": 1699
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 0,
-                        "startOffset": 1509,
+                        "startOffset": 1542,
                         "endColumn": 38,
-                        "endOffset": 1547
+                        "endOffset": 1580
                     }
                 }
             },
@@ -657,13 +657,13 @@
                     "endOffset": 1743
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 0,
-                        "startOffset": 1548,
+                        "startOffset": 1582,
                         "endColumn": 39,
-                        "endOffset": 1587
+                        "endOffset": 1621
                     }
                 }
             },
@@ -676,13 +676,13 @@
                     "endOffset": 1793
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 0,
-                        "startOffset": 1588,
+                        "startOffset": 1623,
                         "endColumn": 45,
-                        "endOffset": 1633
+                        "endOffset": 1668
                     }
                 }
             },
@@ -695,13 +695,13 @@
                     "endOffset": 1846
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 0,
-                        "startOffset": 1634,
+                        "startOffset": 1670,
                         "endColumn": 48,
-                        "endOffset": 1682
+                        "endOffset": 1718
                     }
                 }
             },
@@ -714,13 +714,13 @@
                     "endOffset": 1895
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 0,
-                        "startOffset": 1683,
+                        "startOffset": 1720,
                         "endColumn": 44,
-                        "endOffset": 1727
+                        "endOffset": 1764
                     }
                 }
             },
@@ -733,13 +733,13 @@
                     "endOffset": 1947
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 0,
-                        "startOffset": 1728,
+                        "startOffset": 1766,
                         "endColumn": 47,
-                        "endOffset": 1775
+                        "endOffset": 1813
                     }
                 }
             },
@@ -752,13 +752,13 @@
                     "endOffset": 1995
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 0,
-                        "startOffset": 1776,
+                        "startOffset": 1815,
                         "endColumn": 43,
-                        "endOffset": 1819
+                        "endOffset": 1858
                     }
                 }
             },
@@ -771,13 +771,13 @@
                     "endOffset": 2043
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 0,
-                        "startOffset": 1820,
+                        "startOffset": 1860,
                         "endColumn": 43,
-                        "endOffset": 1863
+                        "endOffset": 1903
                     }
                 }
             },
@@ -790,13 +790,13 @@
                     "endOffset": 2086
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 0,
-                        "startOffset": 1864,
+                        "startOffset": 1905,
                         "endColumn": 38,
-                        "endOffset": 1902
+                        "endOffset": 1943
                     }
                 }
             },
@@ -809,13 +809,13 @@
                     "endOffset": 2126
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 0,
-                        "startOffset": 1903,
+                        "startOffset": 1945,
                         "endColumn": 35,
-                        "endOffset": 1938
+                        "endOffset": 1980
                     }
                 }
             },
@@ -828,13 +828,13 @@
                     "endOffset": 2178
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 0,
-                        "startOffset": 1939,
+                        "startOffset": 1982,
                         "endColumn": 47,
-                        "endOffset": 1986
+                        "endOffset": 2029
                     }
                 }
             },
@@ -847,13 +847,13 @@
                     "endOffset": 2226
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 0,
-                        "startOffset": 1987,
+                        "startOffset": 2031,
                         "endColumn": 43,
-                        "endOffset": 2030
+                        "endOffset": 2074
                     }
                 }
             },
@@ -866,13 +866,13 @@
                     "endOffset": 2270
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 0,
-                        "startOffset": 2031,
+                        "startOffset": 2076,
                         "endColumn": 39,
-                        "endOffset": 2070
+                        "endOffset": 2115
                     }
                 }
             },
@@ -885,13 +885,13 @@
                     "endOffset": 2318
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 0,
-                        "startOffset": 2071,
+                        "startOffset": 2117,
                         "endColumn": 43,
-                        "endOffset": 2114
+                        "endOffset": 2160
                     }
                 }
             },
@@ -904,13 +904,13 @@
                     "endOffset": 2369
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 0,
-                        "startOffset": 2115,
+                        "startOffset": 2162,
                         "endColumn": 46,
-                        "endOffset": 2161
+                        "endOffset": 2208
                     }
                 }
             },
@@ -923,13 +923,13 @@
                     "endOffset": 2419
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 0,
-                        "startOffset": 2162,
+                        "startOffset": 2210,
                         "endColumn": 45,
-                        "endOffset": 2207
+                        "endOffset": 2255
                     }
                 }
             },
@@ -942,13 +942,13 @@
                     "endOffset": 2475
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 0,
-                        "startOffset": 2208,
+                        "startOffset": 2257,
                         "endColumn": 51,
-                        "endOffset": 2259
+                        "endOffset": 2308
                     }
                 }
             },
@@ -961,13 +961,13 @@
                     "endOffset": 2528
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 0,
-                        "startOffset": 2260,
+                        "startOffset": 2310,
                         "endColumn": 48,
-                        "endOffset": 2308
+                        "endOffset": 2358
                     }
                 }
             },
@@ -980,13 +980,13 @@
                     "endOffset": 2601
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 0,
-                        "startOffset": 2819,
+                        "startOffset": 2882,
                         "endColumn": 68,
-                        "endOffset": 2887
+                        "endOffset": 2950
                     }
                 }
             },
@@ -999,13 +999,13 @@
                     "endOffset": 2653
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 0,
-                        "startOffset": 2309,
+                        "startOffset": 2360,
                         "endColumn": 47,
-                        "endOffset": 2356
+                        "endOffset": 2407
                     }
                 }
             },
@@ -1018,13 +1018,13 @@
                     "endOffset": 2701
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 0,
-                        "startOffset": 2357,
+                        "startOffset": 2409,
                         "endColumn": 43,
-                        "endOffset": 2400
+                        "endOffset": 2452
                     }
                 }
             },
@@ -1037,13 +1037,13 @@
                     "endOffset": 2740
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 0,
-                        "startOffset": 2401,
+                        "startOffset": 2454,
                         "endColumn": 34,
-                        "endOffset": 2435
+                        "endOffset": 2488
                     }
                 }
             },
@@ -1056,13 +1056,13 @@
                     "endOffset": 2789
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 0,
-                        "startOffset": 2436,
+                        "startOffset": 2490,
                         "endColumn": 44,
-                        "endOffset": 2480
+                        "endOffset": 2534
                     }
                 }
             },
@@ -1075,13 +1075,13 @@
                     "endOffset": 2832
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 0,
-                        "startOffset": 2512,
+                        "startOffset": 2568,
                         "endColumn": 38,
-                        "endOffset": 2550
+                        "endOffset": 2606
                     }
                 }
             },
@@ -1094,13 +1094,13 @@
                     "endOffset": 2880
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 0,
-                        "startOffset": 2551,
+                        "startOffset": 2608,
                         "endColumn": 43,
-                        "endOffset": 2594
+                        "endOffset": 2651
                     }
                 }
             },
@@ -1113,13 +1113,13 @@
                     "endOffset": 2926
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 0,
-                        "startOffset": 2595,
+                        "startOffset": 2653,
                         "endColumn": 41,
-                        "endOffset": 2636
+                        "endOffset": 2694
                     }
                 }
             },
@@ -1132,13 +1132,13 @@
                     "endOffset": 2976
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 0,
-                        "startOffset": 2637,
+                        "startOffset": 2696,
                         "endColumn": 45,
-                        "endOffset": 2682
+                        "endOffset": 2741
                     }
                 }
             },
@@ -1151,13 +1151,13 @@
                     "endOffset": 3021
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 0,
-                        "startOffset": 2683,
+                        "startOffset": 2743,
                         "endColumn": 40,
-                        "endOffset": 2723
+                        "endOffset": 2783
                     }
                 }
             },
@@ -1170,13 +1170,13 @@
                     "endOffset": 3070
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 0,
-                        "startOffset": 2724,
+                        "startOffset": 2785,
                         "endColumn": 44,
-                        "endOffset": 2768
+                        "endOffset": 2829
                     }
                 }
             },
@@ -1189,13 +1189,13 @@
                     "endOffset": 3124
                 },
                 "from": {
-                    "file": "/Users/fabiano.brito/Dropbox/Aalto/mcc-2016-g13-p1/ThinClientG13-mobile/app/src/main/res/values-zh/strings.xml",
+                    "file": "D:\\ThinClientG13\\mcc-2016-g13-p1\\ThinClientG13-mobile\\app\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 0,
-                        "startOffset": 2769,
+                        "startOffset": 2831,
                         "endColumn": 49,
-                        "endOffset": 2818
+                        "endOffset": 2880
                     }
                 }
             }
