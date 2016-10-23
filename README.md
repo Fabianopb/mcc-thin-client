@@ -2,7 +2,7 @@
 
 ## How to start
 
-* For the frontend you can either import the _ThinClientG13-mobile_ project into Android Studio and build the APK or simply install the APK [from this folder](https://git.niksula.hut.fi/cs-e4100/mcc-2016-g13-p1/tree/master/ThinClientG13-mobile/app/build/outputs/apk).
+* For the frontend you can either import the _ThinClientG13-mobile_ project into Android Studio and build the APK or simply install the APK [from this link](/ThinClientG13.apk).
 
 * Backend server can be started with a deployment script. The deployment script needs to run with administrative privileges.
 
@@ -31,7 +31,7 @@ The backend is written in Python, using Flask and Gunicorn.
 **Files**
 
 + main.py - Main server script
-+ heartbeat.py - Heartbeat process, running when a VM is started 
++ heartbeat.py - Heartbeat process, running when a VM is started
 + requirements.txt - Requirements for the application, installed with pip
 
 ### 'Documentation'
