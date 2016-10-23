@@ -29,9 +29,10 @@ Server is the backend for the application. It authenticates users and allows the
 The backend is written in Python, using Flask and Gunicorn.
 
 **Files**
-- main.py - Main server script
-- heartbeat.py - Heartbeat process, running when a VM is started 
-- requirements.txt Requirements for the application, installed with pip
+
++ main.py - Main server script
++ heartbeat.py - Heartbeat process, running when a VM is started 
++ requirements.txt - Requirements for the application, installed with pip
 
 ### 'Documentation'
 Includes any other relevant files for the understanding of the application
