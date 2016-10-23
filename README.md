@@ -7,6 +7,7 @@
 * Backend server can be started with a deployment script. The deployment script needs to run with administrative privileges.
 ```sh
 sudo ./deploy.sh
+```
 
 
 ## In this repository you will find
