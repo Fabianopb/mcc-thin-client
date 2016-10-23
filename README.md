@@ -15,7 +15,7 @@ The code uses the *MultiVNC* application as a starting point. In the folder _app
 
 Classes named as _\*BW.java_ refer to background async tasks for interacting with the server. The login view and the app selection view are controlled respectively by the classes _MainActivity.java_ and _AppSelectionActivity.java_.
 
-In addition, as the server IP can change in the cloud in case its instance is stopped and restarted, you can find from the preferences menu on the top right corner of the login view, an option to change the server IP.
+In addition, as the server IP can change, you have the option to set it from the preferences menu on the top right corner of the login view.
 
 ### 'Server'
 Includes the socket and cloud connections for the application
